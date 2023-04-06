@@ -1,0 +1,1761 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+    integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js"
+    integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+"
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+  <!-- bootstrap 5 cdn -->
+  <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous"> -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+    integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+    integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+    crossorigin="anonymous"></script>
+  <title>Document</title>
+</head>
+
+<body>
+  <header class="bg-dark">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-xl-4">
+          <ul>
+            <li class="text-white d-inline"> <i class="fa fa-envelope  text-primary mt-3"></i>
+              <a href="" class="text-white">info@nagebabamultistate.com</a>
+            </li>
+            <li class="text-white d-inline"><i class="fa fa-phone text-primary mt-3"></i>
+              <a href="" class="text-white"> +91 95525 54010 </a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-xl-4">
+          <ul class="text-center">
+            <li class="d-inline"><i class="fa fa-calendar text-white mt-3 ml-3"></i><a href=""
+                class="text-white">कॅलेंडर</a></li>
+            <li class="d-inline"><i class="fa fa-address-book text-white mt-3 ml-3"></i><a href=""
+                class="text-white">संपर्क</a></li>
+            <li class="d-inline"><i class="fa fa-graduation-cap text-white  mt-3 ml-3"></i><a href=""
+                class="text-white">करियर</a></li>
+          </ul>
+        </div>
+        <div class="col-xl-4 text-center">
+          <button class="btn rounded-pill ml-5 mt-2 " data-toggle="modal" data-target="#vikas"
+            style="background-color: #12687f;color: white; font-weight: bold;">कस्टमर सपोर्ट</button>
+          <div class="modal fade" id="vikas">
+            <div class="modal-dialog modal-xl">
+              <div class="modal-content">
+                <div class="modal-header" style="background-color: #12687f; height:70px;">
+                  <h3 class="text-light">कस्टमर सपोर्ट
+                  </h3>
+                  <a href="" class="text-dark mr-3 mt-1" data-dismiss="modal">
+                    <h3><i class="fa-solid fa-xmark"></i></h3>
+                  </a>
+                </div>
+                <div class="modal-body">
+                  <div class="w-50 h-50 text-left float-left">
+                    <div class="ml-2">
+                      <button class="btn btn-sm m-1 btn-primary text-white rounded-pill btn-sm">HR</button>
+                      <button class="btn btn-sm m-1 btn-primary text-white rounded-pill btn-sm">ACCOUNT</button>
+                      <button class="btn btn-sm m-1 btn-primary text-white rounded-pill btn-sm">MARKETING</button>
+                      <button class="btn btn-sm m-1 btn-primary text-white rounded-pill btn-sm">TECH SUPPORT</button>
+                    </div>
+                    <div class="mt-3 mr-4 ml-1">
+                      <img src="de1.jpg" alt="" class="p-2 w-100 rounded-sm">
+                    </div>
+                    <div>
+                      <ul class="ml-4">
+                        <li class="text-white d-inline"><i class="fa fa-envelope text-primary mt-3"></i>
+                          <a href="" class="text-primary">info@nagebabamultistate.com</a>
+                        </li>
+                        <li class="text-white d-inline"><i class="fa fa-phone text-primary mt-3"></i>
+                          <a href="" class="text-primary"> +91 95525 54010 </a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="w-50  float-left p-3 border">
+                    <div class="form-group text-left">
+                      <label for="exampleFormControlSelect1" class="font-weight-bold">SUPPORT ON(सपोर्ट) *</label>
+                      <select class="form-control border" id="exampleFormControlSelect1">
+                        <option>Choose Support Type</option>
+                        <option>HR</option>
+                        <option>MARKETING</option>
+                        <option>TECHNICAL</option>
+                        <option>OTHER</option>
+                      </select>
+                    </div>
+                    <div class="form-group text-left float-left">
+                      <label for="" class="font-weight-bold">NAME(नाव) *</label><br>
+                      <input type="text" placeholder="Enter Your Name" class=" border p-1 rounded-lg h-6"
+                        style="width:240px;">
+                    </div>
+                    <div class="form-group float-left text-left" style="margin-left: 20px;">
+                      <label for="" class="font-weight-bold text-right">EMAIL(ई-मेल) *</label> <br>
+                      <input type="text" placeholder="@gmail.com" class=" border p-1  rounded-lg h-6"
+                        style="width: 250px;">
+                    </div>
+                    <div class="form-group text-left float-left">
+                      <label for="" class="font-weight-bold">CONTACT NO(मोबाईल) *</label> <br>
+                      <input type="number" placeholder="0" class=" border p-1   rounded-lg h-6" style="width: 240px;">
+                    </div>
+                    <div class="form-group float-left text-left" style="margin-left: 20px;">
+                      <label for="" class="font-weight-bold text-right">BRANCH NAME(ब्रँच नाव) *</label> <br>
+                      <input type="text" placeholder="Enter Branch Name" class=" border p-1  rounded-lg h-6"
+                        style="width: 250px;">
+                    </div>
+                    <div class="float-left text-left ">
+                      <label for="" class="font-weight-bold">ENTER YOUR QUERY(मेसेज)*</label>
+                      <textarea name="" id="" cols="71" rows="4"></textarea>
+                    </div><br>
+                    <div class="text-center">
+                      <button class="btn btn-primary btn-sm rounded-pill">SEND REPORT</button>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-12">
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <!-- nagebaba logo -->
+  <div class="container-fluid">
+    <div class="row text-center">
+      <div class="d-none d-md-inline col-xl-4">
+        <img src="nagebaba_logo.jpg" alt="" class="mt-2 mb-2">
+      </div>
+      <div class="d-none d-md-inline col-xl-4">
+        <button class="banking p-1">
+          <ul class="d-inline">
+            <li class="d-inline text-warning"><i class="fa fa-download text-white"></i> N</li>
+            <li class="d-inline text-white">E</li>
+            <li class="d-inline text-warning">T</li>
+            <li class="d-inline text-white">- B</li>
+            <li class="d-inline text-warning">A</li>
+            <li class="d-inline text-white">N</li>
+            <li class="d-inline text-warning">K</li>
+            <li class="d-inline text-white">I</li>
+            <li class="d-inline text-warning">N</li>
+            <li class="d-inline text-white">G</li>
+          </ul>
+        </button>
+        <button class="banking p-1 mt-3">
+          <ul class="d-inline">
+            <li class="d-inline text-warning"><i class="fa fa-download text-white font-weight-bold"></i> M</li>
+            <li class="d-inline text-white">O</li>
+            <li class="d-inline text-warning">B</li>
+            <li class="d-inline text-warning">I</li>
+            <li class="d-inline text-white">L</li>
+            <li class="d-inline text-warning">E</li>
+            <li class="d-inline text-white">- B</li>
+            <li class="d-inline text-warning">A</li>
+            <li class="d-inline text-white">N</li>
+            <li class="d-inline text-warning">K</li>
+            <li class="d-inline text-white">I</li>
+            <li class="d-inline text-warning">N</li>
+            <li class="d-inline text-white">G</li>
+          </ul>
+        </button>
+      </div>
+      <div class="d-none d-md-inline col-xl-4">
+        <h4 style="color: #12687f; margin-top:5px;">आम्हाला भार नाही; <br>
+          आधार द्यायचा आहे</h4>
+      </div>
+    </div>
+  </div>
+  <!-- thired navbar -->
+  <div class="container-fluid">
+    <div class="row">
+      <nav class="navbar navbar-expand-lg navbar-dark w-100" style="background-color: #12687f;">
+        <button class="navbar-toggler float-left" type="button" data-toggle="collapse"
+          data-target="#navbarSupportedcontent">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <a href="#" class="navbar-brand"><img class="w-25 float-right" src="footer_logo.png" alt=""></a>
+        <div class="col-12 col-md-12  p-0  collapse navbar-collapse " id="navbarSupportedcontent">
+          <button class="btn text-white float-left font-weight-bold" style="margin-left: 200px;"><a href="index.html"
+              class="text-white font-weight-bold 
+                    data-toggle=" modal data-target="#staticBackdrop"
+              style="text-decoration: none;">मुख्यपृष्ठ</a></button>
+          <div class="dropdown float-left">
+            <button class="btn dropdown-toggle text-white font-weight-bold" data-toggle="dropdown">आमच्याबद्दल</button>
+            <ul class="dropdown-menu ">
+              <li class="dropdown-item ">
+                <a href="nagebababaddal.html" class="text-dark font-weight-bold 
+                            data-toggle=" modal data-target="#staticBackdrop" style="text-decoration: none;">नागेबाबा
+                  बद्दल</a>
+                <div class="modal fade" id="staticBackdrop" data-backdrop="static" data-keyboard="false" tabindex="-1"
+                  aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5 class="modal-title" id="staticBackdropLabel">Modal title</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                          <span aria-hidden="true">&times;</span>
+                        </button>
+                      </div>
+                      <div class="modal-body">
+                        ...
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-primary">Understood</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- नागेबाबा बद्दल chya aat madhle page -->
+              </li>
+              <li class="dropdown-item">
+                <a href="ChairmainBadal.html" class="text-dark font-weight-bold" style="text-decoration: none;"> चेअरमन
+                  बद्दल</a>
+              </li>
+              <li class="dropdown-item">
+                <a href="Vevasathapnebadal.html" class="text-dark font-weight-bold" style="text-decoration: none;">
+                  व्यवस्थापना बद्दल</a>
+              </li>
+            </ul>
+          </div>
+          <button class="btn text-white float-left font-weight-bold" id="aaa"><a href="seva.html" class="text-white font-weight-bold 
+                    data-toggle=" modal data-target="#staticBackdrop" style="text-decoration: none;"> सेवा</a></button>
+          <div class="dropdown float-left">
+            <button class="btn dropdown-toggle text-white font-weight-bold" data-toggle="dropdown">ठेव योजना </button>
+            <ul class="dropdown-menu">
+              <li class="dropdown-item">
+                <a href="FixDeposite.html" class="text-dark font-weight-bold" style="text-decoration: none;">फिक्स
+                  डिपॉझिट
+                </a>
+              </li>
+              <li class="dropdown-item">
+                <a href="Recuring.html" class="text-dark font-weight-bold" style="text-decoration: none;"> आवर्ती ठेव
+                  (रिकरिंग डिपॉझिट)</a>
+              </li>
+              <li class="dropdown-item">
+                <a href="Locker.html" class="text-dark font-weight-bold" style="text-decoration: none;"> लॉकर
+                  डिपॉझिट</a>
+              </li>
+            </ul>
+          </div>
+          <div class="dropdown float-left">
+            <button class="btn dropdown-toggle text-white font-weight-bold" data-toggle="dropdown">कर्ज योजना </button>
+            <ul class="dropdown-menu">
+              <li class="dropdown-item">
+                <a href="Sonetaran.html" class="text-dark font-weight-bold" style="text-decoration: none;">सोनेतारण कर्ज
+                </a>
+              </li>
+              <li class="dropdown-item">
+                <a href="TaranKarja.html" class="text-dark font-weight-bold" style="text-decoration: none;"> तारण
+                  कर्ज</a>
+              </li>
+              <li class="dropdown-item">
+                <a href="VaitekKarja.html" class="text-dark font-weight-bold" style="text-decoration: none;"> वैयक्तिक
+                  कर्ज</a>
+              </li>
+              <li class="dropdown-item">
+                <a href="VaisayikeKarja.html" class="text-dark font-weight-bold" style="text-decoration: none;">
+                  व्यावसायिक कर्ज</a>
+              </li>
+            </ul>
+          </div>
+          <button class="btn text-white float-left font-weight-bold"><a href="Branch.html" class="text-white font-weight-bold 
+                    data-toggle=" modal data-target="#staticBackdrop" style="text-decoration: none;"> शाखा</a></button>
+          <button class="btn text-white float-left "> <a href="Amche.html" class="text-white font-weight-bold 
+                    data-toggle=" modal data-target="#staticBackdrop" style="text-decoration: none;"> आमची कामे</a>
+          </button>
+          <div class="dropdown float-left">
+            <button class="btn dropdown-toggle text-white font-weight-bold" data-toggle="dropdown"> प्रकाशन </button>
+            <ul class="dropdown-menu">
+              <li class="dropdown-item">
+                <a href="VicharDhan.html" class="text-dark font-weight-bold" style="text-decoration: none;">विचारधन
+                </a>
+              </li>
+              <li class="dropdown-item">
+                <a href="Pustake.html" class="text-dark font-weight-bold" style="text-decoration: none;"> पुस्तके</a>
+              </li>
+            </ul>
+          </div>
+          <button class="btn text-white float-left font-weight-bold"><a href="Media.html" class="text-white font-weight-bold 
+                        data-toggle=" modal data-target="#staticBackdrop" style="text-decoration: none;"> मीडिया</a>
+          </button>
+          <button class="btn text-white float-left font-weight-bold"> <a href="Feedback.html" class="text-white font-weight-bold 
+                        data-toggle=" modal data-target="#staticBackdrop" style="text-decoration: none;"> फीडबॅक</a>
+          </button>
+        </div>
+    </div>
+  </div>
+  <!-- shakha _body_section -->
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <h1 class="text-center  mt-5 mb-5  font-weight-bold" style="color: #12687f;  font-size: 55px;">नागेबाबा
+          मल्टीस्टेट वर्ल्ड</h1>
+      </div>
+    </div>
+    <!-- card 1 -->
+    <div class="row">
+      <div class="col-lg-4 col-sm-6">
+        <div class="card mb-5  card_hover"
+          style="border-top:3px solid black; box-shadow:0px 10px 10px -5px black; border-radius:10px 10px 0px 0px;min-height:370px;">
+          <div class="card-body">
+            <h3 class="text-center font-weight-bold mt-3 " style="color: #12687f;">कॉर्पोरेट ऑफिस</h3>
+            <h6 class=" text-center p-2 mt-3" style="color: #818385;  ">माऊली संकुल सभाग्रहासमोर, नगर - मनमाड रोड
+              अहमदनगर- ४१४००१ </h6>
+            <ul class="list-inline ">
+              <li class="d-inline font-weight-bold " style=" color: #12687f; float: left; margin-left: 50px;">फोन: </li>
+              <li class="d-inline ml-1"> ९५५२५५४०१०</li>
+            </ul>
+            <ul class="list-inline ">
+              <li class="d-inline font-weight-bold ml-5" style=" color: #12687f; float: left;">ई-मेल: </li>
+              <li class="d-inline">santnagebaba@gmail.com</li>
+            </ul>
+            <i class="fa fa-phone p-3 mt-3 ml-5 rounded-circle text-white" style="background-color: #12687f;"></i>
+            <i class="fab fa-whatsapp mt-3 ml-3 p-3 rounded-circle text-white" style="background-color: #12687f;"></i>
+            <i class="fa fa-map-marker mt-3 ml-3 p-3 rounded-circle text-white" style="background-color: #12687f;"></i>
+          </div>
+        </div>
+      </div>
+      <!-- card 2 -->
+      <div class="col-lg-4 col-sm-6">
+        <div class="card mb-5 card_hover"
+          style="border-top:3px solid black; box-shadow:0px 10px 10px -5px black; border-radius:10px 10px 0px 0px;min-height:370px;">
+          <div class="card-body">
+            <h3 class="text-center font-weight-bold mt-3 " style="color: #12687f;">आष्टी</h3>
+            <h6 class=" text-center p-2 mt-3" style="color: #818385;  ">शनी चौक, स्टेट बँक ऑफ हैदराबाद जवळ, आष्टी, जि.
+              बीड. ४१४२०३</h6>
+            <ul class="list-inline">
+              <li class="d-inline ml-5 font-weight-bold " style=" color: #12687f; float: left;">फोन: </li>
+              <li class="d-inline ml-1"> ९५५२५५४०२३,</li>
+              <li class="d-inline">९५५२५४३४७२</li>
+            </ul>
+            <ul class="list-inline">
+              <li class="d-inline font-weight-bold ml-5" style=" color: #12687f; float: left;">ई-मेल: </li>
+              <li class="d-inline">ssn.ashti@gmail.com</li>
+            </ul>
+            <i class="fa fa-phone p-3 mt-3 ml-5 rounded-circle text-white" style="background-color: #12687f;"></i>
+            <i class="fab fa-whatsapp mt-3 ml-3 p-3 rounded-circle text-white" style="background-color: #12687f;"></i>
+            <i class="fa fa-map-marker mt-3 ml-3 p-3 rounded-circle text-white" style="background-color: #12687f;"></i>
+          </div>
+        </div>
+      </div>
+      <!-- card 3 -->
+      <div class="col-lg-4 col-sm-6">
+        <div class="card mb-5 card_hover"
+          style="border-top:3px solid black; box-shadow:0px 10px 10px -5px black; border-radius:10px 10px 0px 0px;min-height:370px;">
+          <div class="card-body">
+            <h3 class="text-center font-weight-bold mt-3 " style="color: #12687f;">औरंगाबाद</h3>
+            <h6 class=" text-center p-2 mt-3" style="color: #818385;  ">कसालीवाल बिल्डिंग, जुना मोंढा, पोलीस स्टेशन जवळ,
+              जिल्हा औरंगाबाद. ४३१००१</h6>
+            <ul class="list-inline ">
+              <li class="d-inline ml-5 font-weight-bold " style=" color: #12687f; float: left;">फोन: </li>
+              <li class="d-inline ml-1"> ९५५२५५४०३६,</li>
+              <li class="d-inline ">९५५२८८३०००</li>
+            </ul>
+            <ul class="list-inline">
+              <li class="d-inline font-weight-bold ml-5" style=" color: #12687f; float: left;">ई-मेल: </li>
+              <li class="d-inline">ssn.aurangabad@gmail.com</li>
+            </ul>
+            <i class="fa fa-phone p-3 mt-3 ml-5 rounded-circle text-white" style="background-color: #12687f;"></i>
+            <i class="fab fa-whatsapp mt-3 ml-3 p-3 rounded-circle text-white" style="background-color: #12687f;"></i>
+            <i class="fa fa-map-marker mt-3 ml-3 p-3 rounded-circle text-white" style="background-color: #12687f;"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Card no4 -->
+    <div class="row">
+      <div class="col-lg-4 col-sm-6">
+        <div class="card mb-5 card_hover"
+          style="border-top:3px solid black; box-shadow:0px 10px 10px -5px black; border-radius:10px 10px 0px 0px;min-height:370px;">
+          <div class="card-body">
+            <h3 class="text-center font-weight-bold mt-3 " style="color: #12687f;">बीड</h3>
+            <h6 class="text-center p-2 mt-3" style="color: #818385;  "> अग्रवाल मेडिकल समोर, सुभाष रोड, माळी वेस,
+              हनुमान मंदिर जि:- बीड. ४३११२२</h6>
+            <ul class="list-inline">
+              <li class="d-inline ml-5 font-weight-bold " style=" color: #12687f; float: left;">फोन: </li>
+              <li class="d-inline ml-1">९५५२५५४०५३, </li>
+              <li class="d-inline">९५५२५५४०५९</li>
+            </ul>
+            <ul class="list-inline">
+              <li class="d-inline font-weight-bold ml-5" style="color: #12687f; float: left;">ई-मेल: </li>
+              <li class="d-inline ml-1">ssn.beed@gmail.com</li>
+            </ul>
+            <i class="fa fa-phone p-3 mt-3 ml-5 rounded-circle text-white" style="background-color: #12687f;"></i>
+            <i class="fab fa-whatsapp mt-3 ml-3 p-3 rounded-circle text-white" style="background-color: #12687f;"></i>
+            <i class="fa fa-map-marker mt-3 ml-3 p-3 rounded-circle text-white" style="background-color: #12687f;"></i>
+          </div>
+        </div>
+      </div>
+      <!-- Card no5 -->
+      <div class="col-lg-4 col-sm-6">
+        <div class="card mb-5 card_hover"
+          style="border-top:3px solid black; box-shadow:0px 10px 10px -5px black; border-radius:10px 10px 0px 0px;min-height:370px;">
+          <div class="card-body">
+            <h3 class="text-center font-weight-bold mt-3 " style="color: #12687f;">बेलापूर</h3>
+            <h6 class=" text-center p-2 mt-3" style="color: #818385;  "> नगर-श्रीरामपूर बाय पास रोड, बेलापूर, ता:-
+              श्रीरामपूर, जि:- अहमदनगर. ४१३७१५</h6>
+            <ul class="list-inline">
+              <li class="d-inline ml-5 font-weight-bold" style=" color: #12687f; float: left;">फोन: </li>
+              <li class="d-inline ml-1">९५५२५५३४५७,</li>
+              <li class="d-inline ">९५५२५५३४५९</li>
+            </ul>
+            <ul class="list-inline">
+              <li class="d-inline font-weight-bold ml-5" style="color: #12687f; float: left;">ई-मेल: </li>
+              <li class="d-inline ml-1">sssn.belapur@gmail.com</li>
+            </ul>
+            <i class="fa fa-phone p-3 mt-3 ml-5 rounded-circle text-white" style="background-color: #12687f;"></i>
+            <i class="fab fa-whatsapp mt-3 ml-3 p-3 rounded-circle text-white" style="background-color: #12687f;"></i>
+            <i class="fa fa-map-marker mt-3 ml-3 p-3 rounded-circle text-white" style="background-color: #12687f;"></i>
+          </div>
+        </div>
+      </div>
+      <!-- Card no6 -->
+      <div class="col-lg-4 col-sm-6">
+        <div class="card mb-5 card_hover"
+          style="border-top:3px solid black; box-shadow:0px 10px 10px -5px black; border-radius:10px 10px 0px 0px;min-height:370px;">
+          <div class="card-body">
+            <h3 class="text-center font-weight-bold mt-3" style="color: #12687f;">भेंडा</h3>
+            <h6 class=" text-center p-2 mt-3" style="color: #818385;">मु.पो.भेंडा बु. नागेबाबा मंदिर रोड भेंडा,
+              जि:-अहमदनगर. ४१४६०५</h6>
+            <ul class="list-inline ">
+              <li class="d-inline ml-5 font-weight-bold" style=" color: #12687f; float: left;">फोन: </li>
+              <li class="d-inline ml-1">९५५२५५४०१२,</li>
+              <li class="d-inline">९५५२५५४०२४</li>
+            </ul>
+            <ul class="list-inline">
+              <li class="d-inline font-weight-bold ml-5" style=" color: #12687f; float: left;">ई-मेल: </li>
+              <li class="d-inline ml-1">ssn.bhenda@gmail.com</li>
+            </ul>
+            <i class="fa fa-phone p-3 mt-3 ml-5 rounded-circle text-white" style="background-color: #12687f;"></i>
+            <i class="fab fa-whatsapp mt-3 ml-3 p-3 rounded-circle text-white" style="background-color: #12687f;"></i>
+            <i class="fa fa-map-marker mt-3 ml-3 p-3 rounded-circle text-white" style="background-color: #12687f;"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Card no7 -->
+    <div class="row">
+      <div class="col-lg-4 col-sm-6">
+        <div class="card mb-5 card_hover"
+          style="border-top:3px solid black; box-shadow:0px 10px 10px -5px black; border-radius:10px 10px 0px 0px;min-height:370px;">
+          <div class="card-body">
+            <h3 class="text-center font-weight-bold mt-3 " style="color: #12687f;">देडगाव</h3>
+            <h6 class=" text-center p-2 mt-3" style="color: #818385;  "> पोस्‍ट देडगाव बालाजी मंदिर, ता. नेवासा, जि.
+              अहमदनगर. ४१४६०४</h6>
+            <ul class="list-inline">
+              <li class="d-inline ml-5 font-weight-bold " style=" color: #12687f; float: left;">फोन: </li>
+              <li class="d-inline ml-1">९५५२५४३४७०, </li>
+              <li class="d-inline ">९५५२५४३४९०</li>
+            </ul>
+            <ul class="list-inline">
+              <li class="d-inline font-weight-bold ml-5" style="color: #12687f; float: left;">ई-मेल: </li>
+              <li class="d-inline ml-1">ssn.dedgaon@gmail.com</li>
+            </ul>
+            <i class="fa fa-phone p-3 mt-3 ml-5 rounded-circle text-white" style="background-color: #12687f;"></i>
+            <i class="fab fa-whatsapp mt-3 ml-3 p-3 rounded-circle text-white" style="background-color: #12687f;"></i>
+            <i class="fa fa-map-marker mt-3 ml-3 p-3 rounded-circle text-white" style="background-color: #12687f;"></i>
+          </div>
+        </div>
+      </div>
+      <!-- Card no8 -->
+      <div class="col-lg-4 col-sm-6">
+        <div class="card mb-5 card_hover"
+          style="border-top:3px solid black; box-shadow:0px 10px 10px -5px black; border-radius:10px 10px 0px 0px;min-height:370px;">
+          <div class="card-body">
+            <h3 class="text-center font-weight-bold mt-3" style="color: #12687f;">ब्राम्हणी</h3>
+            <h6 class=" text-center p-2 mt-3" style="color: #818385;  "> बस स्टँड जवळ, बनकर हॉस्पिटल ब्राम्हणी, ता:-
+              राहुरी, जि:- अहमदनगर. ४१३७०५</h6>
+            <ul class="list-inline">
+              <li class="d-inline ml-5 font-weight-bold " style=" color: #12687f; float: left;">फोन: </li>
+              <li class="d-inline ml-1">९५५२६२२०००, </li>
+              <li class="d-inline ">९५५२६२३०००</li>
+            </ul>
+            <ul class="list-inline ">
+              <li class="d-inline font-weight-bold ml-5" style=" color: #12687f; float: left;">ई-मेल: </li>
+              <li class="d-inline ml-1">ssn.bramhani@gmail.com</li>
+            </ul>
+            <i class="fa fa-phone p-3 mt-3 ml-5 rounded-circle text-white" style="background-color: #12687f;"></i>
+            <i class="fab fa-whatsapp mt-3 ml-3 p-3 rounded-circle text-white" style="background-color: #12687f;"></i>
+            <i class="fa fa-map-marker mt-3 ml-3 p-3 rounded-circle text-white" style="background-color: #12687f;"></i>
+          </div>
+        </div>
+      </div>
+      <!-- Card no9 -->
+      <div class="col-lg-4 col-sm-6">
+        <div class="card mb-5 card_hover"
+          style="border-top:3px solid black; box-shadow:0px 10px 10px -5px black; border-radius:10px 10px 0px 0px;min-height:370px;">
+          <div class="card-body">
+            <h3 class="text-center font-weight-bold mt-3 " style="color: #12687f;">बोधेगाव</h3>
+            <h6 class=" text-center p-2 mt-3" style="color: #818385;  ">शेवगाव-गेवराई रोड, बोधेगाव ता:- शेवगाव,
+              जि:-अहमदनगर. पिन:- ४१४५०३</h6>
+            <ul class="list-inline ">
+              <li class="d-inline ml-5 font-weight-bold " style=" color: #12687f; float: left;">फोन: </li>
+              <li class="d-inline ml-1">९५५२५५४०६४, </li>
+              <li class="d-inline ">९५५२५४३४६४</li>
+            </ul>
+            <ul class="list-inline">
+              <li class="d-inline font-weight-bold ml-5" style=" color: #12687f; float: left;">ई-मेल: </li>
+              <li class="d-inline ml-1">ssn.bodhegaon@gmail.com</li>
+            </ul>
+            <i class="fa fa-phone p-3 mt-3 ml-5 rounded-circle text-white" style="background-color: #12687f;"></i>
+            <i class="fab fa-whatsapp mt-3 ml-3 p-3 rounded-circle text-white" style="background-color: #12687f;"></i>
+            <i class="fa fa-map-marker mt-3 ml-3 p-3 rounded-circle text-white" style="background-color: #12687f;"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Card no-10 -->
+    <div class="row">
+      <div class="col-lg-4 col-sm-6">
+        <div class="card mb-5 card_hover"
+          style="border-top:3px solid black; box-shadow:0px 10px 10px -5px black; border-radius:10px 10px 0px 0px;min-height:370px;">
+          <div class="card-body">
+            <h3 class="text-center font-weight-bold mt-3 " style="color: #12687f;">ढोरजळगाव</h3>
+            <h6 class=" text-center p-2 mt-3" style="color: #818385;  "> मिरी-शेवगाव रोड ढोरजळगाव, ता.शेवगाव, जि.
+              अहमदनगर, पिन:-४१४५०२</h6>
+            <ul class="list-inline ">
+              <li class="d-inline ml-5 font-weight-bold " style=" color: #12687f; float: left;">फोन: </li>
+              <li class="d-inline ml-1">९५५२५४३४६३, </li>
+              <li class="d-inline ">९५५२५५४०६३</li>
+            </ul>
+            <ul class="list-inline ">
+              <li class="d-inline font-weight-bold ml-5" style=" color: #12687f; float: left;">ई-मेल: </li>
+              <li class="d-inline ml-1">ssn.dhorjalgaon@gmail.com</li>
+            </ul>
+            <i class="fa fa-phone p-3 mt-3 ml-5 rounded-circle text-white" style="background-color: #12687f;"></i>
+            <i class="fab fa-whatsapp mt-3 ml-3 p-3 rounded-circle text-white" style="background-color: #12687f;"></i>
+            <i class="fa fa-map-marker mt-3 ml-3 p-3 rounded-circle text-white" style="background-color: #12687f;"></i>
+          </div>
+        </div>
+      </div>
+      <!-- Card no-11 -->
+      <div class="col-lg-4 col-sm-6">
+        <div class="card mb-5 card_hover"
+          style="border-top:3px solid black; box-shadow:0px 10px 10px -5px black; border-radius:10px 10px 0px 0px;min-height:370px;">
+          <div class="card-body">
+            <h3 class="text-center font-weight-bold mt-3 " style="color: #12687f;">गंगापूर</h3>
+            <h6 class=" text-center p-2 mt-3" style="color: #818385;  "> लासूर नाका करपे परिसर, जिल्हा:-औरंगाबाद. पिन:-
+              ४३११०९</h6>
+            <ul class="list-inline ">
+              <li class="d-inline ml-5 font-weight-bold " style=" color: #12687f; float: left;">फोन: </li>
+              <li class="d-inline ml-1"> ९५५२५५४०६०, </li>
+              <li class="d-inline ">९५५२५४३४६०</li>
+            </ul>
+            <ul class="list-inline ">
+              <li class="d-inline font-weight-bold ml-5" style=" color: #12687f; float: left;">ई-मेल: </li>
+              <li class="d-inline ml-1"> ssn.gangapur@gmail.com</li>
+            </ul>
+            <i class="fa fa-phone p-3 mt-3 ml-5 rounded-circle text-white" style="background-color: #12687f;"></i>
+            <i class="fab fa-whatsapp mt-3 ml-3 p-3 rounded-circle text-white" style="background-color: #12687f;"></i>
+            <i class="fa fa-map-marker mt-3 ml-3 p-3 rounded-circle text-white" style="background-color: #12687f;"></i>
+          </div>
+        </div>
+      </div>
+      <!-- Card no-12 -->
+      <div class="col-lg-4 col-sm-6">
+        <div class="card mb-5 card_hover"
+          style="border-top:3px solid black; box-shadow:0px 10px 10px -5px black; border-radius:10px 10px 0px 0px;min-height:370px;">
+          <div class="card-body">
+            <h3 class="text-center font-weight-bold mt-3 " style="color: #12687f;">गेवराई</h3>
+            <h6 class=" text-center p-2 mt-3" style="color: #818385;  ">मेन रोड, डॉ. सिकची हॉस्पिटल समोर, गेवराई, जि.
+              बीड. पिन:- ४३११२७</h6>
+            <ul class="list-inline ">
+              <li class="d-inline ml-5 font-weight-bold " style=" color: #12687f; float: left;">फोन: </li>
+              <li class="d-inline ml-1">९५५२६४२०००, </li>
+              <li class="d-inline ">९५५२६४३०००</li>
+            </ul>
+            <ul class="list-inline ">
+              <li class="d-inline font-weight-bold ml-5" style=" color: #12687f; float: left;">ई-मेल: </li>
+              <li class="d-inline ml-1">ssn.gevrai@gmail.com</li>
+            </ul>
+            <i class="fa fa-phone p-3 mt-3 ml-5 rounded-circle text-white" style="background-color: #12687f;"></i>
+            <i class="fab fa-whatsapp mt-3 ml-3 p-3 rounded-circle text-white" style="background-color: #12687f;"></i>
+            <i class="fa fa-map-marker mt-3 ml-3 p-3 rounded-circle text-white" style="background-color: #12687f;"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Card no-13 -->
+    <div class="row">
+      <div class="col-lg-4 col-sm-6">
+        <div class="card mb-5 card_hover"
+          style="border-top:3px solid black; box-shadow:0px 10px 10px -5px black; border-radius:10px 10px 0px 0px;min-height:370px;">
+          <div class="card-body">
+            <h3 class="text-center font-weight-bold mt-3 " style="color: #12687f;">घोडेगाव</h3>
+            <h6 class=" text-center p-2 mt-3" style="color: #818385;  "> विठ्ठल रुख्मिणी मंदिराजवळ, घोडेगाव, ता:-
+              नेवासा, जि:- अहमदनगर. ४१४६०७</h6>
+            <ul class="list-inline ">
+              <li class="d-inline ml-5 font-weight-bold " style=" color: #12687f; float: left;">फोन: </li>
+              <li class="d-inline ml-1">९५५२६४७०००, </li>
+              <li class="d-inline ">९५५२६४८०००</li>
+            </ul>
+            <ul class="list-inline ">
+              <li class="d-inline font-weight-bold ml-5" style=" color: #12687f; float: left;">ई-मेल: </li>
+              <li class="d-inline ml-1">ssn.ghodegaon@gmail.com</li>
+            </ul>
+            <i class="fa fa-phone p-3 mt-3 ml-5 rounded-circle text-white" style="background-color: #12687f;"></i>
+            <i class="fab fa-whatsapp mt-3 ml-3 p-3 rounded-circle text-white" style="background-color: #12687f;"></i>
+            <i class="fa fa-map-marker mt-3 ml-3 p-3 rounded-circle text-white" style="background-color: #12687f;"></i>
+          </div>
+        </div>
+      </div>
+      <!-- Card no-14 -->
+      <div class="col-lg-4 col-sm-6">
+        <div class="card mb-5 card_hover"
+          style="border-top:3px solid black; box-shadow:0px 10px 10px -5px black; border-radius:10px 10px 0px 0px;min-height:370px;">
+          <div class="card-body">
+            <h3 class="text-center font-weight-bold mt-3 " style="color: #12687f;">जालना</h3>
+            <h6 class=" text-center p-2 mt-3" style="color: #818385;  "> सिंधी बाजार चौक, देऊळगाव राजा रोड, लक्ष्मीमाता
+              मंदिराजवळ, जि. जालना. ४३१२०३</h6>
+            <ul class="list-inline ">
+              <li class="d-inline ml-5 font-weight-bold " style=" color: #12687f; float: left;">फोन: </li>
+              <li class="d-inline ml-1"> ९५५२५४३४८६, </li>
+              <li class="d-inline ">९५५२५४३४८९</li>
+            </ul>
+            <ul class="list-inline ">
+              <li class="d-inline font-weight-bold ml-5" style=" color: #12687f; float: left;">ई-मेल: </li>
+              <li class="d-inline ml-1"> ssn.jalna@gmail.com</li>
+            </ul>
+            <i class="fa fa-phone p-3 mt-3 ml-5 rounded-circle text-white" style="background-color: #12687f;"></i>
+            <i class="fab fa-whatsapp mt-3 ml-3 p-3 rounded-circle text-white" style="background-color: #12687f;"></i>
+            <i class="fa fa-map-marker mt-3 ml-3 p-3 rounded-circle text-white" style="background-color: #12687f;"></i>
+          </div>
+        </div>
+      </div>
+      <!-- Card no-15 -->
+      <div class="col-lg-4 col-sm-6">
+        <div class="card mb-5 card_hover"
+          style="border-top:3px solid black; box-shadow:0px 10px 10px -5px black; border-radius:10px 10px 0px 0px;min-height:370px;">
+          <div class="card-body">
+            <h3 class="text-center font-weight-bold mt-3 " style="color: #12687f;">जामखेड</h3>
+            <h6 class=" text-center p-2 mt-3" style="color: #818385;  ">बीड रोड, कृषी बाजार समिती समोर, जि. अहमदनगर.
+              ४१३२०१</h6>
+            <ul class="list-inline ">
+              <li class="d-inline ml-5 font-weight-bold " style=" color: #12687f; float: left;">फोन: </li>
+              <li class="d-inline ml-1"> ९५५२५५४०६१, </li>
+              <li class="d-inline ">९५५२५४३४६६</li>
+            </ul>
+            <ul class="list-inline ">
+              <li class="d-inline font-weight-bold ml-5" style=" color: #12687f; float: left;">ई-मेल: </li>
+              <li class="d-inline ml-1">ssn.jamkhed@gmail.com</li>
+            </ul>
+            <i class="fa fa-phone p-3 mt-3 ml-5 rounded-circle text-white" style="background-color: #12687f;"></i>
+            <i class="fab fa-whatsapp mt-3 ml-3 p-3 rounded-circle text-white" style="background-color: #12687f;"></i>
+            <i class="fa fa-map-marker mt-3 ml-3 p-3 rounded-circle text-white" style="background-color: #12687f;"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Card no-16 -->
+    <div class="row">
+      <div class="col-lg-4 col-sm-6">
+        <div class="card mb-5 card_hover"
+          style="border-top:3px solid black; box-shadow:0px 10px 10px -5px black; border-radius:10px 10px 0px 0px;min-height:370px;">
+          <div class="card-body">
+            <h3 class="text-center font-weight-bold mt-3 " style="color: #12687f;">कडा</h3>
+            <h6 class=" text-center p-2 mt-3" style="color: #818385;  ">आंबेडकर चौक, पाथर्डी रोड, नागनाथ चौक समोर, कडा,
+              जि:-बीड. ४१४२०२</h6>
+            <ul class="list-inline ">
+              <li class="d-inline ml-5 font-weight-bold " style=" color: #12687f; float: left;">फोन: </li>
+              <li class="d-inline ml-1">९५५२५४३४५८,</li>
+              <li class="d-inline ">९५५२५४३४६९</li>
+            </ul>
+            <ul class="list-inline">
+              <li class="d-inline font-weight-bold ml-5" style=" color: #12687f; float: left;">ई-मेल: </li>
+              <li class="d-inline ml-1">ssn.kada@gmail.com</li>
+            </ul>
+            <i class="fa fa-phone p-3 mt-3 ml-5 rounded-circle text-white" style="background-color: #12687f;"></i>
+            <i class="fab fa-whatsapp mt-3 ml-3 p-3 rounded-circle text-white" style="background-color: #12687f;"></i>
+            <i class="fa fa-map-marker mt-3 ml-3 p-3 rounded-circle text-white" style="background-color: #12687f;"></i>
+          </div>
+        </div>
+      </div>
+      <!-- Card no-17 -->
+      <div class="col-lg-4 col-sm-6">
+        <div class="card mb-5 card_hover"
+          style="border-top:3px solid black; box-shadow:0px 10px 10px -5px black; border-radius:10px 10px 0px 0px;min-height:370px;">
+          <div class="card-body">
+            <h3 class="text-center font-weight-bold mt-3 " style="color: #12687f;">कडी गुजरात</h3>
+            <h6 class=" text-center p-2 mt-3" style="color: #818385;  "> तात्रोज रोड, बिसाइड कोटक महिंद्रा बँक, कडी, जि.
+              म्हैसाणा, गुजरात. पिन:- ३८२७१५</h6>
+            <ul class="list-inline">
+              <li class="d-inline ml-5 font-weight-bold " style=" color: #12687f; float: left;">फोन: </li>
+              <li class="d-inline ml-1"> ९५५२५५४०१९ </li>
+              <li class="d-inline ">९५५२५४३४८९</li>
+            </ul>
+            <ul class="list-inline">
+              <li class="d-inline font-weight-bold ml-5" style=" color: #12687f; float: left;">ई-मेल: </li>
+              <li class="d-inline ml-1">ssn.kadi@gmail.com</li>
+            </ul>
+            <i class="fa fa-phone p-3 mt-3 ml-5 rounded-circle text-white" style="background-color: #12687f;"></i>
+            <i class="fab fa-whatsapp mt-3 ml-3 p-3 rounded-circle text-white" style="background-color: #12687f;"></i>
+            <i class="fa fa-map-marker mt-3 ml-3 p-3 rounded-circle text-white" style="background-color: #12687f;"></i>
+          </div>
+        </div>
+      </div>
+      <!-- Card no-18 -->
+      <div class="col-lg-4 col-sm-6">
+        <div class="card mb-5 card_hover"
+          style="border-top:3px solid black; box-shadow:0px 10px 10px -5px black; border-radius:10px 10px 0px 0px;min-height:370px;">
+          <div class="card-body">
+            <h3 class="text-center font-weight-bold mt-3 " style="color: #12687f;">कापड बाजार</h3>
+            <h6 class=" text-center p-2 mt-3" style="color: #818385;  ">सारडा लेन, बांगडीवाला हायट्स, कापड बाजार, जिल्हा
+              :-अहमदनगर. ४१४००१</h6>
+            <ul class="list-inline ">
+              <li class="d-inline ml-5 font-weight-bold " style=" color: #12687f; float: left;">फोन: </li>
+              <li class="d-inline ml-1"> ९५५२५५४०२७, </li>
+              <li class="d-inline ">९५५२५५४०२६</li>
+            </ul>
+            <ul class="list-inline ">
+              <li class="d-inline font-weight-bold ml-5" style=" color: #12687f; float: left;">ई-मेल: </li>
+              <li class="d-inline ml-1">ssn.kapadbazar@gmail.com</li>
+            </ul>
+            <i class="fa fa-phone p-3 mt-3 ml-5 rounded-circle text-white" style="background-color: #12687f;"></i>
+            <i class="fab fa-whatsapp mt-3 ml-3 p-3 rounded-circle text-white" style="background-color: #12687f;"></i>
+            <i class="fa fa-map-marker mt-3 ml-3 p-3 rounded-circle text-white" style="background-color: #12687f;"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Card no-19 -->
+    <div class="row">
+      <div class="col-lg-4 col-sm-6">
+        <div class="card mb-5 card_hover"
+          style="border-top:3px solid black; box-shadow:0px 10px 10px -5px black; border-radius:10px 10px 0px 0px;min-height:370px;">
+          <div class="card-body">
+            <h3 class="text-center font-weight-bold mt-3 " style="color: #12687f;">करजगाव</h3>
+            <h6 class=" text-center p-2 mt-3" style="color: #818385;  ">फुलसौंदर कॉम्प्लेक्स, बस स्टँड जवळ, करजगाव, ता:-
+              नेवासा, जि:- अहमदनगर. ४१४१०५.</h6>
+            <ul class="list-inline ">
+              <li class="d-inline ml-5 font-weight-bold " style=" color: #12687f; float: left;">फोन: </li>
+              <li class="d-inline ml-1">९५५२६०१०००, </li>
+              <li class="d-inline ">९५५२६०२०००</li>
+            </ul>
+            <ul class="list-inline ">
+              <li class="d-inline font-weight-bold ml-5" style=" color: #12687f; float: left;">ई-मेल: </li>
+              <li class="d-inline ml-1">ssn.karajgaon@gmail.com</li>
+            </ul>
+            <i class="fa fa-phone p-3 mt-3 ml-5 rounded-circle text-white" style="background-color: #12687f;"></i>
+            <i class="fab fa-whatsapp mt-3 ml-3 p-3 rounded-circle text-white" style="background-color: #12687f;"></i>
+            <i class="fa fa-map-marker mt-3 ml-3 p-3 rounded-circle text-white" style="background-color: #12687f;"></i>
+          </div>
+        </div>
+      </div>
+      <!-- Card no-20 -->
+      <div class="col-lg-4 col-sm-6">
+        <div class="card mb-5 card_hover"
+          style="border-top:3px solid black; box-shadow:0px 10px 10px -5px black; border-radius:10px 10px 0px 0px;min-height:370px;">
+          <div class="card-body">
+            <h3 class="text-center font-weight-bold mt-3 " style="color: #12687f;">करंजी</h3>
+            <h6 class=" text-center p-2 mt-3" style="color: #818385;  "> करंजी, पो. करंजी, नगर पाथर्डी रोड, ता:-
+              पाथर्डी, जि:- अहमदनगर. ४१४१०६</h6>
+            <ul class="list-inline ">
+              <li class="d-inline ml-5 font-weight-bold " style=" color: #12687f; float: left;">फोन: </li>
+              <li class="d-inline ml-1"> ९५५२६०३०००, </li>
+              <li class="d-inline ">९५५२६०४०००</li>
+            </ul>
+            <ul class="list-inline ">
+              <li class="d-inline font-weight-bold ml-5" style=" color: #12687f; float: left;">ई-मेल: </li>
+              <li class="d-inline ml-1">ssn.karanji@gmail.com</li>
+            </ul>
+            <i class="fa fa-phone p-3 mt-3 ml-5 rounded-circle text-white" style="background-color: #12687f;"></i>
+            <i class="fab fa-whatsapp mt-3 ml-3 p-3 rounded-circle text-white" style="background-color: #12687f;"></i>
+            <i class="fa fa-map-marker mt-3 ml-3 p-3 rounded-circle text-white" style="background-color: #12687f;"></i>
+          </div>
+        </div>
+      </div>
+      <!-- Card no-21 -->
+      <div class="col-lg-4 col-sm-6">
+        <div class="card mb-5 card_hover"
+          style="border-top:3px solid black; box-shadow:0px 10px 10px -5px black; border-radius:10px 10px 0px 0px;min-height:370px;">
+          <div class="card-body">
+            <h3 class="text-center font-weight-bold mt-3 " style="color: #12687f;">कर्जत</h3>
+            <h6 class=" text-center p-2 mt-3" style="color: #818385;  ">काकडे कलेक्शन समोर, मेन रोड बाजारतळ,
+              जि:-अहमदनगर. ४१४४०२</h6>
+            <ul class="list-inline ">
+              <li class="d-inline ml-5 font-weight-bold " style=" color: #12687f; float: left;">फोन: </li>
+              <li class="d-inline ml-1"> ९५५२५५४०५२, </li>
+              <li class="d-inline ">९५५२५५४०६२</li>
+            </ul>
+            <ul class="list-inline ">
+              <li class="d-inline font-weight-bold ml-5" style=" color: #12687f; float: left;">ई-मेल: </li>
+              <li class="d-inline ml-1"> ssn.karjat@gmail.com</li>
+            </ul>
+            <i class="fa fa-phone p-3 mt-3 ml-5 rounded-circle text-white" style="background-color: #12687f;"></i>
+            <i class="fab fa-whatsapp mt-3 ml-3 p-3 rounded-circle text-white" style="background-color: #12687f;"></i>
+            <i class="fa fa-map-marker mt-3 ml-3 p-3 rounded-circle text-white" style="background-color: #12687f;"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Card no-22 -->
+    <div class="row">
+      <div class="col-lg-4 col-sm-6">
+        <div class="card mb-5 card_hover"
+          style="border-top:3px solid black; box-shadow:0px 10px 10px -5px black; border-radius:10px 10px 0px 0px;min-height:370px;">
+          <div class="card-body">
+            <h3 class="text-center font-weight-bold mt-3 " style="color: #12687f;">करमाड</h3>
+            <h6 class=" text-center p-2 mt-3" style="color: #818385;  ">पोलीस स्टेशन जवळ, करमाड, ता/जि: औरंगाबाद, पिन:
+              ४३१००७</h6>
+            <ul class="list-inline">
+              <li class="d-inline ml-5 font-weight-bold " style=" color: #12687f; float: left;">फोन: </li>
+              <li class="d-inline ml-1">९५५२६७१०००, </li>
+              <li class="d-inline">९५५२६७२०००</li>
+            </ul>
+            <ul class="list-inline">
+              <li class="d-inline font-weight-bold ml-5" style=" color: #12687f; float: left;">ई-मेल: </li>
+              <li class="d-inline ml-1">ssn.karmad@gmail.com</li>
+            </ul>
+            <i class="fa fa-phone p-3 mt-3 ml-5 rounded-circle text-white" style="background-color: #12687f;"></i>
+            <i class="fab fa-whatsapp mt-3 ml-3 p-3 rounded-circle text-white" style="background-color: #12687f;"></i>
+            <i class="fa fa-map-marker mt-3 ml-3 p-3 rounded-circle text-white" style="background-color: #12687f;"></i>
+          </div>
+        </div>
+      </div>
+      <!-- Card no-23 -->
+      <div class="col-lg-4 col-sm-6">
+        <div class="card mb-5 card_hover"
+          style="border-top:3px solid black; box-shadow:0px 10px 10px -5px black; border-radius:10px 10px 0px 0px;min-height:370px;">
+          <div class="card-body">
+            <h3 class="text-center font-weight-bold mt-3 " style="color: #12687f;">केडगाव</h3>
+            <h6 class=" text-center p-2 mt-3" style="color: #818385;  "> स्टेट बँकेच्या खाली, नगर पुणे रोड, केडगाव,
+              अहमदनगर. ४१४००५</h6>
+            <ul class="list-inline ">
+              <li class="d-inline ml-5 font-weight-bold " style=" color: #12687f; float: left;">फोन: </li>
+              <li class="d-inline ml-1"> ९५५२८७१०००, </li>
+              <li class="d-inline "> ९५५२८७२०००</li>
+            </ul>
+            <ul class="list-inline ">
+              <li class="d-inline font-weight-bold ml-5" style=" color: #12687f; float: left;">ई-मेल: </li>
+              <li class="d-inline ml-1">ssn.kedgaon@gmail.com</li>
+            </ul>
+            <i class="fa fa-phone p-3 mt-3 ml-5 rounded-circle text-white" style="background-color: #12687f;"></i>
+            <i class="fab fa-whatsapp mt-3 ml-3 p-3 rounded-circle text-white" style="background-color: #12687f;"></i>
+            <i class="fa fa-map-marker mt-3 ml-3 p-3 rounded-circle text-white" style="background-color: #12687f;"></i>
+          </div>
+        </div>
+      </div>
+      <!-- Card no-24 -->
+      <div class="col-lg-4 col-sm-6">
+        <div class="card mb-5 card_hover"
+          style="border-top:3px solid black; box-shadow:0px 10px 10px -5px black; border-radius:10px 10px 0px 0px;min-height:370px;">
+          <div class="card-body">
+            <h3 class="text-center font-weight-bold mt-3 " style="color: #12687f;">खरवंडी कासार</h3>
+            <h6 class=" text-center p-2 mt-3" style="color: #818385;  ">कोहिनूर रेडिमेड समोर , खरवंडी कासार, ता:-
+              पाथर्डी, जिल्हा:- अहमदनगर. ४१४११३</h6>
+            <ul class="list-inline ">
+              <li class="d-inline ml-5 font-weight-bold " style=" color: #12687f; float: left;">फोन: </li>
+              <li class="d-inline ml-1">९५५२५५४०२८,</li>
+              <li class="d-inline ">९५५२५५४०२९</li>
+            </ul>
+            <ul class="list-inline">
+              <li class="d-inline font-weight-bold ml-5" style=" color: #12687f; float: left;">ई-मेल: </li>
+              <li class="d-inline ml-1"> ssn.kharvandik@gmail.com</li>
+            </ul>
+            <i class="fa fa-phone p-3 mt-3 ml-5 rounded-circle text-white" style="background-color: #12687f;"></i>
+            <i class="fab fa-whatsapp mt-3 ml-3 p-3 rounded-circle text-white" style="background-color: #12687f;"></i>
+            <i class="fa fa-map-marker mt-3 ml-3 p-3 rounded-circle text-white" style="background-color: #12687f;"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Card no-25 -->
+    <div class="row">
+      <div class="col-lg-4 col-sm-6">
+        <div class="card mb-5 card_hover"
+          style="border-top:3px solid black; box-shadow:0px 10px 10px -5px black; border-radius:10px 10px 0px 0px;min-height:370px;">
+          <div class="card-body">
+            <h3 class="text-center font-weight-bold mt-3 " style="color: #12687f;">कोल्हार</h3>
+            <h6 class=" text-center p-2 mt-3" style="color: #818385;  ">नगर मनमाड रोड, बस स्टँड शेजारी, कुंकलोल
+              कॉम्प्लेक्स, जिल्हा:-अहमदनगर. ४१३७१०</h6>
+            <ul class="list-inline ">
+              <li class="d-inline ml-5 font-weight-bold " style=" color: #12687f; float: left;">फोन: </li>
+              <li class="d-inline ml-1">९५५२५४३४७९, </li>
+              <li class="d-inline ">९५५२५४३४७८</li>
+            </ul>
+            <ul class="list-inline ">
+              <li class="d-inline font-weight-bold ml-5" style=" color: #12687f; float: left;">ई-मेल: </li>
+              <li class="d-inline ml-1">ssn.kolhar@gmail.com</li>
+            </ul>
+            <i class="fa fa-phone p-3 mt-3 ml-5 rounded-circle text-white" style="background-color: #12687f;"></i>
+            <i class="fab fa-whatsapp mt-3 ml-3 p-3 rounded-circle text-white" style="background-color: #12687f;"></i>
+            <i class="fa fa-map-marker mt-3 ml-3 p-3 rounded-circle text-white" style="background-color: #12687f;"></i>
+          </div>
+        </div>
+      </div>
+      <!-- Card no-26 -->
+      <div class="col-lg-4 col-sm-6">
+        <div class="card mb-5 card_hover"
+          style="border-top:3px solid black; box-shadow:0px 10px 10px -5px black; border-radius:10px 10px 0px 0px;min-height:370px;">
+          <div class="card-body">
+            <h3 class="text-center font-weight-bold mt-3 " style="color: #12687f;">कोपरगाव</h3>
+            <h6 class=" text-center p-2 mt-3" style="color: #818385;  "> बद्धडे कॉम्प्लेक्स, बँक रोड, कोपरगाव,
+              जिल्हा:-अहमदनगर. ४२३६०१</h6>
+            <ul class="list-inline ">
+              <li class="d-inline ml-5 font-weight-bold " style=" color: #12687f; float: left;">फोन: </li>
+              <li class="d-inline ml-1"> ९५५२५४३४७७, </li>
+              <li class="d-inline "> ९५५२५४३४७४</li>
+            </ul>
+            <ul class="list-inline ">
+              <li class="d-inline font-weight-bold ml-5" style=" color: #12687f; float: left;">ई-मेल: </li>
+              <li class="d-inline ml-1">ssn.kopargaon@gmail.com</li>
+            </ul>
+            <i class="fa fa-phone p-3 mt-3 ml-5 rounded-circle text-white" style="background-color: #12687f;"></i>
+            <i class="fab fa-whatsapp mt-3 ml-3 p-3 rounded-circle text-white" style="background-color: #12687f;"></i>
+            <i class="fa fa-map-marker mt-3 ml-3 p-3 rounded-circle text-white" style="background-color: #12687f;"></i>
+          </div>
+        </div>
+      </div>
+      <!-- Card no-27 -->
+      <div class="col-lg-4 col-sm-6">
+        <div class="card mb-5 card_hover"
+          style="border-top:3px solid black; box-shadow:0px 10px 10px -5px black; border-radius:10px 10px 0px 0px;min-height:370px;">
+          <div class="card-body">
+            <h3 class="text-center font-weight-bold mt-3 " style="color: #12687f;">कुकाणा</h3>
+            <h6 class=" text-center p-2 mt-3" style="color: #818385;  ">नेवासा-शेवगाव रोड, चौधरी कॉम्प्लेक्स, ता:-
+              नेवासा जि:-अहमदनगर. ४१४६०६</h6>
+            <ul class="list-inline ">
+              <li class="d-inline ml-5 font-weight-bold " style=" color: #12687f; float: left;">फोन: </li>
+              <li class="d-inline ml-1">९५५२५५४०३५, </li>
+              <li class="d-inline ">९५५२५५४०३८</li>
+            </ul>
+            <ul class="list-inline">
+              <li class="d-inline font-weight-bold ml-5" style=" color: #12687f; float: left;">ई-मेल: </li>
+              <li class="d-inline ml-1"> ssn.kukana@gmail.com</li>
+            </ul>
+            <i class="fa fa-phone p-3 mt-3 ml-5 rounded-circle text-white" style="background-color: #12687f;"></i>
+            <i class="fab fa-whatsapp mt-3 ml-3 p-3 rounded-circle text-white" style="background-color: #12687f;"></i>
+            <i class="fa fa-map-marker mt-3 ml-3 p-3 rounded-circle text-white" style="background-color: #12687f;"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Card no-28 -->
+    <div class="row">
+      <div class="col-lg-4 col-sm-6">
+        <div class="card mb-5 card_hover"
+          style="border-top:3px solid black; box-shadow:0px 10px 10px -5px black; border-radius:10px 10px 0px 0px;min-height:370px;">
+          <div class="card-body">
+            <h3 class="text-center font-weight-bold mt-3 " style="color: #12687f;">लासूर स्टेशन</h3>
+            <h6 class=" text-center p-2 mt-3" style="color: #818385;  ">मेन रोड, लासूर स्टेशन, आंबेडकर चौक,
+              जिल्हा:-औरंगाबाद. पिन:- ४२३७०२</h6>
+            <ul class="list-inline ">
+              <li class="d-inline ml-5 font-weight-bold " style=" color: #12687f; float: left;">फोन: </li>
+              <li class="d-inline ml-1">९५५२५४३४६८ </li>
+              <li class="d-inline ">९५५२५४३४७८</li>
+            </ul>
+            <ul class="list-inline ">
+              <li class="d-inline font-weight-bold ml-5" style=" color: #12687f; float: left;">ई-मेल: </li>
+              <li class="d-inline ml-1">ssn.lasur@gmail.com</li>
+            </ul>
+            <i class="fa fa-phone p-3 mt-3 ml-5 rounded-circle text-white" style="background-color: #12687f;"></i>
+            <i class="fab fa-whatsapp mt-3 ml-3 p-3 rounded-circle text-white" style="background-color: #12687f;"></i>
+            <i class="fa fa-map-marker mt-3 ml-3 p-3 rounded-circle text-white" style="background-color: #12687f;"></i>
+          </div>
+        </div>
+      </div>
+      <!-- Card no-29 -->
+      <div class="col-lg-4 col-sm-6">
+        <div class="card mb-5 card_hover"
+          style="border-top:3px solid black; box-shadow:0px 10px 10px -5px black; border-radius:10px 10px 0px 0px;min-height:370px;">
+          <div class="card-body">
+            <h3 class="text-center font-weight-bold mt-3 " style="color: #12687f;">अहमदनगर मार्केटयार्ड</h3>
+            <h6 class=" text-center p-2 mt-3" style="color: #818385;  "> मर्चंट बँकेजवळ, सुपेकर हॉस्पिटलच्या खाली,
+              अहमदनगर. ४१४००१</h6>
+            <ul class="list-inline ">
+              <li class="d-inline ml-5 font-weight-bold " style=" color: #12687f; float: left;">फोन: </li>
+              <li class="d-inline ml-1"> ९५५२५५४०५०, </li>
+              <li class="d-inline ">९५५२५४३४८८</li>
+            </ul>
+            <ul class="list-inline ">
+              <li class="d-inline font-weight-bold ml-5" style=" color: #12687f; float: left;">ई-मेल: </li>
+              <li class="d-inline ml-1">ssn.marketyard@gmail.com</li>
+            </ul>
+            <i class="fa fa-phone p-3 mt-3 ml-5 rounded-circle text-white" style="background-color: #12687f;"></i>
+            <i class="fab fa-whatsapp mt-3 ml-3 p-3 rounded-circle text-white" style="background-color: #12687f;"></i>
+            <i class="fa fa-map-marker mt-3 ml-3 p-3 rounded-circle text-white" style="background-color: #12687f;"></i>
+          </div>
+        </div>
+      </div>
+      <!-- Card no-30 -->
+      <div class="col-lg-4 col-sm-6">
+        <div class="card mb-5 card_hover"
+          style="border-top:3px solid black; box-shadow:0px 10px 10px -5px black; border-radius:10px 10px 0px 0px;min-height:370px;">
+          <div class="card-body">
+            <h3 class="text-center font-weight-bold mt-3 " style="color: #12687f;">मिरजगाव</h3>
+            <h6 class=" text-center p-2 mt-3" style="color: #818385;  ">नगर अर्बन बँक रोड, मिरजगाव जिल्हा:- अहमदनगर.
+              पिन:- ४१४४०१</h6>
+            <ul class="list-inline">
+              <li class="d-inline ml-5 font-weight-bold " style=" color: #12687f; float: left;">फोन: </li>
+              <li class="d-inline ml-1"> ९५५२८६४०००,</li>
+              <li class="d-inline">९५५२८६५०००</li>
+            </ul>
+            <ul class="list-inline">
+              <li class="d-inline font-weight-bold ml-5" style=" color: #12687f; float: left;">ई-मेल: </li>
+              <li class="d-inline ml-1"> ssn.mirajgaon@gmail.com</li>
+            </ul>
+            <i class="fa fa-phone p-3 mt-3 ml-5 rounded-circle text-white" style="background-color: #12687f;"></i>
+            <i class="fab fa-whatsapp mt-3 ml-3 p-3 rounded-circle text-white" style="background-color: #12687f;"></i>
+            <i class="fa fa-map-marker mt-3 ml-3 p-3 rounded-circle text-white" style="background-color: #12687f;"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Card no-31 -->
+    <div class="row">
+      <div class="col-lg-4 col-sm-6">
+        <div class="card mb-5 card_hover"
+          style="border-top:3px solid black; box-shadow:0px 10px 10px -5px black; border-radius:10px 10px 0px 0px;min-height:370px;">
+          <div class="card-body">
+            <h3 class="text-center font-weight-bold mt-3 " style="color: #12687f;">मिरी</h3>
+            <h6 class=" text-center p-2 mt-3" style="color: #818385;  ">ग्रामपंचायत जवळ, मिरी, ता: पाथर्डी, जि: अहमदनगर,
+              पिन:- ४१४५०१</h6>
+            <ul class="list-inline">
+              <li class="d-inline ml-5 font-weight-bold " style=" color: #12687f; float: left;">फोन: </li>
+              <li class="d-inline ml-1"> ९५५२६८३०००, </li>
+              <li class="d-inline">९५५२६८४०००</li>
+            </ul>
+            <ul class="list-inline">
+              <li class="d-inline font-weight-bold ml-5" style=" color: #12687f; float: left;">ई-मेल: </li>
+              <li class="d-inline ml-1"> ssn.miribranch@gmail.com</li>
+            </ul>
+            <i class="fa fa-phone p-3 mt-3 ml-5 rounded-circle text-white" style="background-color: #12687f;"></i>
+            <i class="fab fa-whatsapp mt-3 ml-3 p-3 rounded-circle text-white" style="background-color: #12687f;"></i>
+            <i class="fa fa-map-marker mt-3 ml-3 p-3 rounded-circle text-white" style="background-color: #12687f;"></i>
+          </div>
+        </div>
+      </div>
+      <!-- Card no-32 -->
+      <div class="col-lg-4 col-sm-6">
+        <div class="card mb-5 card_hover"
+          style="border-top:3px solid black; box-shadow:0px 10px 10px -5px black; border-radius:10px 10px 0px 0px;min-height:370px;">
+          <div class="card-body">
+            <h3 class="text-center font-weight-bold mt-3 " style="color: #12687f;">नेवासा</h3>
+            <h6 class=" text-center p-2 mt-3" style="color: #818385;  "> नेवासा रोड, पावन गणपतीसमोर, जि. अहमदनगर. ४१४६०३
+            </h6>
+            <ul class="list-inline ">
+              <li class="d-inline ml-5 font-weight-bold " style=" color: #12687f; float: left;">फोन: </li>
+              <li class="d-inline ml-1"> ९५५२५५४०३७, </li>
+              <li class="d-inline ">९५५२५५४०११</li>
+            </ul>
+            <ul class="list-inline ">
+              <li class="d-inline font-weight-bold ml-5" style=" color: #12687f; float: left;">ई-मेल: </li>
+              <li class="d-inline ml-1">ssn.newasa@gmail.com</li>
+            </ul>
+            <i class="fa fa-phone p-3 mt-3 ml-5 rounded-circle text-white" style="background-color: #12687f;"></i>
+            <i class="fab fa-whatsapp mt-3 ml-3 p-3 rounded-circle text-white" style="background-color: #12687f;"></i>
+            <i class="fa fa-map-marker mt-3 ml-3 p-3 rounded-circle text-white" style="background-color: #12687f;"></i>
+          </div>
+        </div>
+      </div>
+      <!-- Card no-33 -->
+      <div class="col-lg-4 col-sm-6">
+        <div class="card mb-5 card_hover"
+          style="border-top:3px solid black; box-shadow:0px 10px 10px -5px black; border-radius:10px 10px 0px 0px;min-height:370px;">
+          <div class="card-body">
+            <h3 class="text-center font-weight-bold mt-3 " style="color: #12687f;">पैठण</h3>
+            <h6 class=" text-center p-2 mt-3" style="color: #818385;  ">शंकररावजी चौहान शॉपिंग सेंटर, शिवाजी चौक,
+              जिल्हा:- औरंगाबाद. ४३११०७</h6>
+            <ul class="list-inline">
+              <li class="d-inline ml-5 font-weight-bold " style=" color: #12687f; float: left;">फोन: </li>
+              <li class="d-inline ml-1"> ९५५२६०७०००, </li>
+              <li class="d-inline">९५५२६०८०००</li>
+            </ul>
+            <ul class="list-inline">
+              <li class="d-inline font-weight-bold ml-5" style=" color: #12687f; float: left;">ई-मेल: </li>
+              <li class="d-inline ml-1"> ssn.paithan@gmail.com</li>
+            </ul>
+            <i class="fa fa-phone p-3 mt-3 ml-5 rounded-circle text-white" style="background-color: #12687f;"></i>
+            <i class="fab fa-whatsapp mt-3 ml-3 p-3 rounded-circle text-white" style="background-color: #12687f;"></i>
+            <i class="fa fa-map-marker mt-3 ml-3 p-3 rounded-circle text-white" style="background-color: #12687f;"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Card no-34 -->
+    <div class="row">
+      <div class="col-lg-4 col-sm-6">
+        <div class="card mb-5 card_hover"
+          style="border-top:3px solid black; box-shadow:0px 10px 10px -5px black; border-radius:10px 10px 0px 0px;min-height:370px;">
+          <div class="card-body">
+            <h3 class="text-center font-weight-bold mt-3 " style="color: #12687f;">पाथर्डी</h3>
+            <h6 class=" text-center p-2 mt-3" style="color: #818385;  ">माणिक दौंडी चौक, अहमदनगर रोड, जिल्हा:- अहमदनगर.
+              पिन:- ४१४१०२</h6>
+            <ul class="list-inline">
+              <li class="d-inline ml-5 font-weight-bold " style=" color: #12687f; float: left;">फोन: </li>
+              <li class="d-inline ml-1"> ९५५२५५४०१५, </li>
+              <li class="d-inline">९५५२५५४०४६</li>
+            </ul>
+            <ul class="list-inline">
+              <li class="d-inline font-weight-bold ml-5" style=" color: #12687f; float: left;">ई-मेल: </li>
+              <li class="d-inline ml-1"> ssn.pathardi@gmail.com</li>
+            </ul>
+            <i class="fa fa-phone p-3 mt-3 ml-5 rounded-circle text-white" style="background-color: #12687f;"></i>
+            <i class="fab fa-whatsapp mt-3 ml-3 p-3 rounded-circle text-white" style="background-color: #12687f;"></i>
+            <i class="fa fa-map-marker mt-3 ml-3 p-3 rounded-circle text-white" style="background-color: #12687f;"></i>
+          </div>
+        </div>
+      </div>
+      <!-- Card no-35 -->
+      <div class="col-lg-4 col-sm-6">
+        <div class="card mb-5 card_hover"
+          style="border-top:3px solid black; box-shadow:0px 10px 10px -5px black; border-radius:10px 10px 0px 0px;min-height:370px;">
+          <div class="card-body">
+            <h3 class="text-center font-weight-bold mt-3 " style="color: #12687f;">पाईपलाईन अहमदनगर</h3>
+            <h6 class=" text-center p-2 mt-3" style="color: #818385;  ">यशोदा नागा, स्टेट बँकेजवळ, अहमदनगर. पिन:- ४१४००३
+            </h6>
+            <ul class="list-inline">
+              <li class="d-inline ml-5 font-weight-bold " style=" color: #12687f; float: left;">फोन: </li>
+              <li class="d-inline ml-1"> ९५५२५५४०५१, </li>
+              <li class="d-inline">९५५२५४३४७५</li>
+            </ul>
+            <ul class="list-inline">
+              <li class="d-inline font-weight-bold ml-5" style=" color: #12687f; float: left;">ई-मेल: </li>
+              <li class="d-inline ml-1">ssn.pipeline@gmail.com</li>
+            </ul>
+            <i class="fa fa-phone p-3 mt-3 ml-5 rounded-circle text-white" style="background-color: #12687f;"></i>
+            <i class="fab fa-whatsapp mt-3 ml-3 p-3 rounded-circle text-white" style="background-color: #12687f;"></i>
+            <i class="fa fa-map-marker mt-3 ml-3 p-3 rounded-circle text-white" style="background-color: #12687f;"></i>
+          </div>
+        </div>
+      </div>
+      <!-- Card no-36 -->
+      <div class="col-lg-4 col-sm-6">
+        <div class="card mb-5 card_hover"
+          style="border-top:3px solid black; box-shadow:0px 10px 10px -5px black; border-radius:10px 10px 0px 0px;min-height:370px;">
+          <div class="card-body">
+            <h3 class="text-center font-weight-bold mt-3 " style="color: #12687f;">प्रवरासंगम</h3>
+            <h6 class=" text-center p-2 mt-3" style="color: #818385;  ">चंद्र कमल कॉम्प्लेक्स, देवगड रोड, प्रवरा संगम,
+              जिल्हा:-अहमदनगर. ४१४६०३</h6>
+            <ul class="list-inline ">
+              <li class="d-inline ml-5 font-weight-bold " style=" color: #12687f; float: left;">फोन: </li>
+              <li class="d-inline ml-1"> ९५५२८७३०००, </li>
+              <li class="d-inline ">९५५२८७४०००</li>
+            </ul>
+            <ul class="list-inline ">
+              <li class="d-inline font-weight-bold ml-5" style=" color: #12687f; float: left;">ई-मेल: </li>
+              <li class="d-inline ml-1"> ssn.pravarasangam@gmail.com</li>
+            </ul>
+            <i class="fa fa-phone p-3 mt-3 ml-5 rounded-circle text-white" style="background-color: #12687f;"></i>
+            <i class="fab fa-whatsapp mt-3 ml-3 p-3 rounded-circle text-white" style="background-color: #12687f;"></i>
+            <i class="fa fa-map-marker mt-3 ml-3 p-3 rounded-circle text-white" style="background-color: #12687f;"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Card no-37 -->
+    <div class="row">
+      <div class="col-lg-4 col-sm-6">
+        <div class="card mb-5 card_hover"
+          style="border-top:3px solid black; box-shadow:0px 10px 10px -5px black; border-radius:10px 10px 0px 0px;min-height:370px;">
+          <div class="card-body">
+            <h3 class="text-center font-weight-bold mt-3 " style="color: #12687f;">गुलटेकडी पुणे</h3>
+            <h6 class=" text-center p-2 mt-3" style="color: #818385;  ">मार्केटयार्ड, गेट क्र. 9, समोर. जीएस टॉवर, दुकान
+              क्रमांक २३, गुलटेकडी, पुणे. पिन:- ४११०३७</h6>
+            <ul class="list-inline ">
+              <li class="d-inline ml-5 font-weight-bold " style=" color: #12687f; float: left;">फोन: </li>
+              <li class="d-inline ml-1"> ९५५२५५४०४१, </li>
+              <li class="d-inline ">९५५२५४३४८७</li>
+            </ul>
+            <ul class="list-inline ">
+              <li class="d-inline font-weight-bold ml-5" style=" color: #12687f; float: left;">ई-मेल: </li>
+              <li class="d-inline ml-1"> ssn.gultekdi@gmail.com</li>
+            </ul>
+            <i class="fa fa-phone p-3 mt-3 ml-5 rounded-circle text-white" style="background-color: #12687f;"></i>
+            <i class="fab fa-whatsapp mt-3 ml-3 p-3 rounded-circle text-white" style="background-color: #12687f;"></i>
+            <i class="fa fa-map-marker mt-3 ml-3 p-3 rounded-circle text-white" style="background-color: #12687f;"></i>
+          </div>
+        </div>
+      </div>
+      <!-- Card no-38 -->
+      <div class="col-lg-4 col-sm-6">
+        <div class="card mb-5 card_hover"
+          style="border-top:3px solid black; box-shadow:0px 10px 10px -5px black; border-radius:10px 10px 0px 0px;min-height:370px;">
+          <div class="card-body">
+            <h3 class="text-center font-weight-bold mt-3 " style="color: #12687f;">राहाता</h3>
+            <h6 class=" text-center p-2 mt-3" style="color: #818385;  ">राहाता बसस्थानक परिसर, जिल्हा:-अहमदनगर. पिन:-
+              ४२३१०७</h6>
+            <ul class="list-inline ">
+              <li class="d-inline ml-5 font-weight-bold " style=" color: #12687f; float: left;">फोन: </li>
+              <li class="d-inline ml-1"> ९५५२६१२०००, </li>
+              <li class="d-inline ">९५५२६१३०००</li>
+            </ul>
+            <ul class="list-inline ">
+              <li class="d-inline font-weight-bold ml-5" style=" color: #12687f; float: left;">ई-मेल: </li>
+              <li class="d-inline ml-1">ssn.rahata@gmail.com</li>
+            </ul>
+            <i class="fa fa-phone p-3 mt-3 ml-5 rounded-circle text-white" style="background-color: #12687f;"></i>
+            <i class="fab fa-whatsapp mt-3 ml-3 p-3 rounded-circle text-white" style="background-color: #12687f;"></i>
+            <i class="fa fa-map-marker mt-3 ml-3 p-3 rounded-circle text-white" style="background-color: #12687f;"></i>
+          </div>
+        </div>
+      </div>
+      <!-- Card no-39 -->
+      <div class="col-lg-4 col-sm-6">
+        <div class="card mb-5 card_hover"
+          style="border-top:3px solid black; box-shadow:0px 10px 10px -5px black; border-radius:10px 10px 0px 0px;min-height:370px;">
+          <div class="card-body">
+            <h3 class="text-center font-weight-bold mt-3 " style="color: #12687f;">राहुरी</h3>
+            <h6 class=" text-center p-2 mt-3" style="color: #818385;  ">नवीन पेठ शिंदे कॉम्प्लेक्स, राहुरी, जि. अहमदनगर.
+              ४१४६०३</h6>
+            <ul class="list-inline ">
+              <li class="d-inline ml-5 font-weight-bold " style=" color: #12687f; float: left;">फोन: </li>
+              <li class="d-inline ml-1">९५५२५५४०४४, </li>
+              <li class="d-inline"> ९५५२५५४०४८</li>
+            </ul>
+            <ul class="list-inline">
+              <li class="d-inline font-weight-bold ml-5" style=" color: #12687f; float: left;">ई-मेल: </li>
+              <li class="d-inline ml-1"> ssn.rahuri@gmail.com</li>
+            </ul>
+            <i class="fa fa-phone p-3 mt-3 ml-5 rounded-circle text-white" style="background-color: #12687f;"></i>
+            <i class="fab fa-whatsapp mt-3 ml-3 p-3 rounded-circle text-white" style="background-color: #12687f;"></i>
+            <i class="fa fa-map-marker mt-3 ml-3 p-3 rounded-circle text-white" style="background-color: #12687f;"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Card no-40 -->
+    <div class="row">
+      <div class="col-lg-4 col-sm-6">
+        <div class="card mb-5 card_hover"
+          style="border-top:3px solid black; box-shadow:0px 10px 10px -5px black; border-radius:10px 10px 0px 0px;min-height:370px;">
+          <div class="card-body">
+            <h3 class="text-center font-weight-bold mt-3 " style="color: #12687f;">रांजणगाव</h3>
+            <h6 class=" text-center p-2 mt-3" style="color: #818385;  ">MIDC, ग्रामपंचायत कार्यालयाजवळ, ता. गंगापूर, जि.
+              औरंगाबाद. ४३११३६</h6>
+            <ul class="list-inline">
+              <li class="d-inline ml-5 font-weight-bold " style=" color: #12687f; float: left;">फोन: </li>
+              <li class="d-inline ml-1"> ९५५२५५४०६६, </li>
+              <li class="d-inline">९५५२८८२०००</li>
+            </ul>
+            <ul class="list-inline">
+              <li class="d-inline font-weight-bold ml-5" style=" color: #12687f; float: left;">ई-मेल: </li>
+              <li class="d-inline ml-1"> ssn.ranjangaon@gmail.com</li>
+            </ul>
+            <i class="fa fa-phone p-3 mt-3 ml-5 rounded-circle text-white" style="background-color: #12687f;"></i>
+            <i class="fab fa-whatsapp mt-3 ml-3 p-3 rounded-circle text-white" style="background-color: #12687f;"></i>
+            <i class="fa fa-map-marker mt-3 ml-3 p-3 rounded-circle text-white" style="background-color: #12687f;"></i>
+          </div>
+        </div>
+      </div>
+      <!-- Card no-41 -->
+      <div class="col-lg-4 col-sm-6">
+        <div class="card mb-5 card_hover"
+          style="border-top:3px solid black; box-shadow:0px 10px 10px -5px black; border-radius:10px 10px 0px 0px;min-height:370px;">
+          <div class="card-body">
+            <h3 class="text-center font-weight-bold mt-3 " style="color: #12687f;">सलाबतपूर</h3>
+            <h6 class=" text-center p-2 mt-3" style="color: #818385;  ">सलाबतपूर, ता:- नेवासा, जि :-अहमदनगर. पिन :-
+              ४१४६०३</h6>
+            <ul class="list-inline">
+              <li class="d-inline ml-5 font-weight-bold " style=" color: #12687f; float: left;">फोन: </li>
+              <li class="d-inline ml-1"> ९५५२६१४०००, </li>
+              <li class="d-inline">९५५२६१५०००</li>
+            </ul>
+            <ul class="list-inline">
+              <li class="d-inline font-weight-bold ml-5" style=" color: #12687f; float: left;">ई-मेल: </li>
+              <li class="d-inline ml-1">ssn.salabatpur@gmail.com</li>
+            </ul>
+            <i class="fa fa-phone p-3 mt-3 ml-5 rounded-circle text-white" style="background-color: #12687f;"></i>
+            <i class="fab fa-whatsapp mt-3 ml-3 p-3 rounded-circle text-white" style="background-color: #12687f;"></i>
+            <i class="fa fa-map-marker mt-3 ml-3 p-3 rounded-circle text-white" style="background-color: #12687f;"></i>
+          </div>
+        </div>
+      </div>
+      <!-- Card no-42 -->
+      <div class="col-lg-4 col-sm-6">
+        <div class="card mb-5 card_hover"
+          style="border-top:3px solid black; box-shadow:0px 10px 10px -5px black; border-radius:10px 10px 0px 0px;min-height:370px;">
+          <div class="card-body">
+            <h3 class="text-center font-weight-bold mt-3 " style="color: #12687f;">संगमनेर</h3>
+            <h6 class=" text-center p-2 mt-3" style="color: #818385;  ">जुने तांबे हॉस्पिटल जवळ, अकोले रोड, एस.टी.
+              स्टँड, जि: अहमदनगर. ४२२६०५</h6>
+            <ul class="list-inline">
+              <li class="d-inline ml-5 font-weight-bold " style=" color: #12687f; float: left;">फोन: </li>
+              <li class="d-inline ml-1">९५५२५५४०३०, </li>
+              <li class="d-inline">९५५२५५४०३१</li>
+            </ul>
+            <ul class="list-inline">
+              <li class="d-inline font-weight-bold ml-5" style=" color: #12687f; float: left;">ई-मेल: </li>
+              <li class="d-inline ml-1">ssn.sangamner@gmail.com</li>
+            </ul>
+            <i class="fa fa-phone p-3 mt-3 ml-5 rounded-circle text-white" style="background-color: #12687f;"></i>
+            <i class="fab fa-whatsapp mt-3 ml-3 p-3 rounded-circle text-white" style="background-color: #12687f;"></i>
+            <i class="fa fa-map-marker mt-3 ml-3 p-3 rounded-circle text-white" style="background-color: #12687f;"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Card no-43 -->
+    <div class="row">
+      <div class="col-lg-4 col-sm-6">
+        <div class="card mb-5 card_hover"
+          style="border-top:3px solid black; box-shadow:0px 10px 10px -5px black; border-radius:10px 10px 0px 0px;min-height:370px;">
+          <div class="card-body">
+            <h3 class="text-center font-weight-bold mt-3 " style="color: #12687f;">सावेडी</h3>
+            <h6 class=" text-center p-2 mt-3" style="color: #818385;  ">नागेबाबा हाउस, नगर-मनमाड रोड, झोपडी कॅन्टीन,
+              अहमदनगर. ४१४००१</h6>
+            <ul class="list-inline">
+              <li class="d-inline ml-5 font-weight-bold " style=" color: #12687f; float: left;">फोन: </li>
+              <li class="d-inline ml-1">९५५२५५४०६५, </li>
+              <li class="d-inline"> ९५५२५४३४७६</li>
+            </ul>
+            <ul class="list-inline">
+              <li class="d-inline font-weight-bold ml-5" style=" color: #12687f; float: left;">ई-मेल: </li>
+              <li class="d-inline ml-1"> ssn.savedi@gmail.com</li>
+            </ul>
+            <i class="fa fa-phone p-3 mt-3 ml-5 rounded-circle text-white" style="background-color: #12687f;"></i>
+            <i class="fab fa-whatsapp mt-3 ml-3 p-3 rounded-circle text-white" style="background-color: #12687f;"></i>
+            <i class="fa fa-map-marker mt-3 ml-3 p-3 rounded-circle text-white" style="background-color: #12687f;"></i>
+          </div>
+        </div>
+      </div>
+      <!-- Card no-44 -->
+      <div class="col-lg-4 col-sm-6">
+        <div class="card mb-5 card_hover"
+          style="border-top:3px solid black; box-shadow:0px 10px 10px -5px black; border-radius:10px 10px 0px 0px;min-height:370px;">
+          <div class="card-body">
+            <h3 class="text-center font-weight-bold mt-3 " style="color: #12687f;">शहर टाकळी</h3>
+            <h6 class=" text-center p-2 mt-3" style="color: #818385;  ">ग्रामपंचायत जवळ, शहार टाकळी, ता: शेवगाव, जि:
+              अहमदनगर, पिन: ४१४५०२</h6>
+            <ul class="list-inline">
+              <li class="d-inline ml-5 font-weight-bold " style=" color: #12687f; float: left;">फोन: </li>
+              <li class="d-inline ml-1"> ९५५२६५३०००, </li>
+              <li class="d-inline ">९५५२६५४०००</li>
+            </ul>
+            <ul class="list-inline ">
+              <li class="d-inline font-weight-bold ml-5" style=" color: #12687f; float: left;">ई-मेल: </li>
+              <li class="d-inline ml-1">ssn.shahartakli@gmail.com</li>
+            </ul>
+            <i class="fa fa-phone p-3 mt-3 ml-5 rounded-circle text-white" style="background-color: #12687f;"></i>
+            <i class="fab fa-whatsapp mt-3 ml-3 p-3 rounded-circle text-white" style="background-color: #12687f;"></i>
+            <i class="fa fa-map-marker mt-3 ml-3 p-3 rounded-circle text-white" style="background-color: #12687f;"></i>
+          </div>
+        </div>
+      </div>
+      <!-- Card no-45 -->
+      <div class="col-lg-4 col-sm-6">
+        <div class="card mb-5 card_hover"
+          style="border-top:3px solid black; box-shadow:0px 10px 10px -5px black; border-radius:10px 10px 0px 0px;min-height:370px;">
+          <div class="card-body">
+            <h3 class="text-center font-weight-bold mt-3 " style="color: #12687f;">शेवगाव</h3>
+            <h6 class=" text-center p-2 mt-3" style="color: #818385;  "> पंचायत समिती जवळ, शेवगाव, जि. अहमदनगर. पिन
+              ४१४५०२</h6>
+            <ul class="list-inline ">
+              <li class="d-inline ml-5 font-weight-bold " style=" color: #12687f; float: left;">फोन: </li>
+              <li class="d-inline ml-1">९५५२५५४००८, </li>
+              <li class="d-inline ">९५५२५५४००९</li>
+            </ul>
+            <ul class="list-inline ">
+              <li class="d-inline font-weight-bold ml-5" style=" color: #12687f; float: left;">ई-मेल: </li>
+              <li class="d-inline ml-1">ssn.shevgaon@gmail.com</li>
+            </ul>
+            <i class="fa fa-phone p-3 mt-3 ml-5 rounded-circle text-white" style="background-color: #12687f;"></i>
+            <i class="fab fa-whatsapp mt-3 ml-3 p-3 rounded-circle text-white" style="background-color: #12687f;"></i>
+            <i class="fa fa-map-marker mt-3 ml-3 p-3 rounded-circle text-white" style="background-color: #12687f;"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Card no-46 -->
+    <div class="row">
+      <div class="col-lg-4 col-sm-6">
+        <div class="card mb-5 card_hover"
+          style="border-top:3px solid black; box-shadow:0px 10px 10px -5px black; border-radius:10px 10px 0px 0px;min-height:370px;">
+          <div class="card-body">
+            <h3 class="text-center font-weight-bold mt-3 " style="color: #12687f;">श्रीरामपूर</h3>
+            <h6 class=" text-center p-2 mt-3" style="color: #818385;  ">साई सपर मार्केट, फर्स्ट फ्लॉवर, मेन रोड, शहा
+              ब्रदर्स जवळ, श्रीरामपूर, जिल्हा:- अहमदनगर पिन:- ४१३७०९</h6>
+            <ul class="list-inline ">
+              <li class="d-inline ml-5 font-weight-bold " style=" color: #12687f; float: left;">फोन: </li>
+              <li class="d-inline ml-1"> ९५५२५५४०४७, </li>
+              <li class="d-inline "> ९५५२५५४०४९</li>
+            </ul>
+            <ul class="list-inline ">
+              <li class="d-inline font-weight-bold ml-5" style=" color: #12687f; float: left;">ई-मेल: </li>
+              <li class="d-inline ml-1"> ssn.shrirampur@gmail.com</li>
+            </ul>
+            <i class="fa fa-phone p-3 mt-3 ml-5 rounded-circle text-white" style="background-color: #12687f;"></i>
+            <i class="fab fa-whatsapp mt-3 ml-3 p-3 rounded-circle text-white" style="background-color: #12687f;"></i>
+            <i class="fa fa-map-marker mt-3 ml-3 p-3 rounded-circle text-white" style="background-color: #12687f;"></i>
+          </div>
+        </div>
+      </div>
+      <!-- Card no-47 -->
+      <div class="col-lg-4 col-sm-6">
+        <div class="card mb-5 card_hover"
+          style="border-top:3px solid black; box-shadow:0px 10px 10px -5px black; border-radius:10px 10px 0px 0px;min-height:370px;">
+          <div class="card-body">
+            <h3 class="text-center font-weight-bold mt-3 " style="color: #12687f;">श्रीरामपूर मार्केटयार्ड</h3>
+            <h6 class=" text-center p-2 mt-3" style="color: #818385;  ">मंगल कॉम्प्लेक्स, कांडा मार्केट रोड, श्रीरामपूर
+              मार्केटयार्ड, जि. अहमदनगर. पिन:- ४१३७०९</h6>
+            <ul class="list-inline ">
+              <li class="d-inline ml-5 font-weight-bold " style=" color: #12687f; float: left;">फोन: </li>
+              <li class="d-inline ml-1"> ९५५२५५४०१३, </li>
+              <li class="d-inline ">९५५२५५४०१४</li>
+            </ul>
+            <ul class="list-inline ">
+              <li class="d-inline font-weight-bold ml-5" style=" color: #12687f; float: left;">ई-मेल: </li>
+              <li class="d-inline ml-1">ssn.shriramprMY@gmail.com</li>
+            </ul>
+            <i class="fa fa-phone p-3 mt-3 ml-5 rounded-circle text-white" style="background-color: #12687f;"></i>
+            <i class="fab fa-whatsapp mt-3 ml-3 p-3 rounded-circle text-white" style="background-color: #12687f;"></i>
+            <i class="fa fa-map-marker mt-3 ml-3 p-3 rounded-circle text-white" style="background-color: #12687f;"></i>
+          </div>
+        </div>
+      </div>
+      <!-- Card no-48 -->
+      <div class="col-lg-4 col-sm-6">
+        <div class="card mb-5 card_hover"
+          style="border-top:3px solid black; box-shadow:0px 10px 10px -5px black; border-radius:10px 10px 0px 0px;min-height:370px;">
+          <div class="card-body">
+            <h3 class="text-center font-weight-bold mt-3 " style="color: #12687f;">शिरूर कासार</h3>
+            <h6 class=" text-center p-2 mt-3" style="color: #818385;  "> सानप हॉस्पिटल जवळ डॉ. जि:- बीड. पिन:-४१३२४९
+            </h6>
+            <ul class="list-inline ">
+              <li class="d-inline ml-5 font-weight-bold " style=" color: #12687f; float: left;">फोन: </li>
+              <li class="d-inline ml-1"> ९५५२६७३०००, </li>
+              <li class="d-inline "> ९५५२६७४०००</li>
+            </ul>
+            <ul class="list-inline ">
+              <li class="d-inline font-weight-bold ml-5" style=" color: #12687f; float: left;">ई-मेल: </li>
+              <li class="d-inline ml-1">ssn.shevgaon@gmail.com</li>
+            </ul>
+            <i class="fa fa-phone p-3 mt-3 ml-5 rounded-circle text-white" style="background-color: #12687f;"></i>
+            <i class="fab fa-whatsapp mt-3 ml-3 p-3 rounded-circle text-white" style="background-color: #12687f;"></i>
+            <i class="fa fa-map-marker mt-3 ml-3 p-3 rounded-circle text-white" style="background-color: #12687f;"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Card no-49 -->
+    <div class="row">
+      <div class="col-lg-4 col-sm-6">
+        <div class="card mb-5 card_hover"
+          style="border-top:3px solid black; box-shadow:0px 10px 10px -5px black; border-radius:10px 10px 0px 0px;min-height:370px;">
+          <div class="card-body">
+            <h3 class="text-center font-weight-bold mt-3 " style="color: #12687f;">सोनई</h3>
+            <h6 class=" text-center p-2 mt-3" style="color: #818385;  ">घोडेगाव-राहुरी रोड, बनकर कॉम्प्लेक्स, स्टेट
+              बँकेजवळ, जिल्हा:-अहमदनगर. ४१४१०५</h6>
+            <ul class="list-inline ">
+              <li class="d-inline ml-5 font-weight-bold " style=" color: #12687f; float: left;">फोन: </li>
+              <li class="d-inline ml-1"> ९५५२५५४०६७, </li>
+              <li class="d-inline "> ९५५२५४३४६७</li>
+            </ul>
+            <ul class="list-inline ">
+              <li class="d-inline font-weight-bold ml-5" style=" color: #12687f; float: left;">ई-मेल: </li>
+              <li class="d-inline ml-1">ssn.sonai@gmail.com</li>
+            </ul>
+            <i class="fa fa-phone p-3 mt-3 ml-5 rounded-circle text-white" style="background-color: #12687f;"></i>
+            <i class="fab fa-whatsapp mt-3 ml-3 p-3 rounded-circle text-white" style="background-color: #12687f;"></i>
+            <i class="fa fa-map-marker mt-3 ml-3 p-3 rounded-circle text-white" style="background-color: #12687f;"></i>
+          </div>
+        </div>
+      </div>
+      <!-- Card no-50 -->
+      <div class="col-lg-4 col-sm-6">
+        <div class="card mb-5 card_hover"
+          style="border-top:3px solid black; box-shadow:0px 10px 10px -5px black; border-radius:10px 10px 0px 0px;min-height:370px;">
+          <div class="card-body">
+            <h3 class="text-center font-weight-bold mt-3 " style="color: #12687f;">सोनगाव सात्रळ</h3>
+            <h6 class=" text-center p-2 mt-3" style="color: #818385;  ">जि.प. शाळेजवळ, सोनगाव सात्रळ ता. राहुरी, जि.
+              अहमदनगर. पिन:- ४१३७११</h6>
+            <ul class="list-inline ">
+              <li class="d-inline ml-5 font-weight-bold " style=" color: #12687f; float: left;">फोन: </li>
+              <li class="d-inline ml-1"> ९५५२९२७०००, </li>
+              <li class="d-inline ">९५५२९२८०००</li>
+            </ul>
+            <ul class="list-inline">
+              <li class="d-inline font-weight-bold ml-5" style=" color: #12687f; float: left;">ई-मेल: </li>
+              <li class="d-inline ml-1">ssn.songaonsatral@gmail.com</li>
+            </ul>
+            <i class="fa fa-phone p-3 mt-3 ml-5 rounded-circle text-white" style="background-color: #12687f;"></i>
+            <i class="fab fa-whatsapp mt-3 ml-3 p-3 rounded-circle text-white" style="background-color: #12687f;"></i>
+            <i class="fa fa-map-marker mt-3 ml-3 p-3 rounded-circle text-white" style="background-color: #12687f;"></i>
+          </div>
+        </div>
+      </div>
+      <!-- Card no-51 -->
+      <div class="col-lg-4 col-sm-6">
+        <div class="card mb-5 card_hover"
+          style="border-top:3px solid black; box-shadow:0px 10px 10px -5px black; border-radius:10px 10px 0px 0px;min-height:370px;">
+          <div class="card-body">
+            <h3 class="text-center font-weight-bold mt-3 " style="color: #12687f;">टाकळीभान</h3>
+            <h6 class=" text-center p-2 mt-3" style="color: #818385;  "> बस स्टँड जवळ, नेवासा-श्रीरामपूर रोड, टाकळीभान,
+              ता:-श्रीरामपूर, जि:- अहमदनगर. ४१३७२५</h6>
+            <ul class="list-inline ">
+              <li class="d-inline ml-5 font-weight-bold " style=" color: #12687f; float: left;">फोन: </li>
+              <li class="d-inline ml-1"> ९५५२९२४०००, </li>
+              <li class="d-inline "> ९५५२९२६०००</li>
+            </ul>
+            <ul class="list-inline ">
+              <li class="d-inline font-weight-bold ml-5" style=" color: #12687f; float: left;">ई-मेल: </li>
+              <li class="d-inline ml-1">ssn.takalibhan@gmail.com</li>
+            </ul>
+            <i class="fa fa-phone p-3 mt-3 ml-5 rounded-circle text-white" style="background-color: #12687f;"></i>
+            <i class="fab fa-whatsapp mt-3 ml-3 p-3 rounded-circle text-white" style="background-color: #12687f;"></i>
+            <i class="fa fa-map-marker mt-3 ml-3 p-3 rounded-circle text-white" style="background-color: #12687f;"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Card no-52 -->
+    <div class="row">
+      <div class="col-lg-4 col-sm-6">
+        <div class="card mb-5 card_hover"
+          style="border-top:3px solid black; box-shadow:0px 10px 10px -5px black; border-radius:10px 10px 0px 0px;min-height:370px;">
+          <div class="card-body">
+            <h3 class="text-center font-weight-bold mt-3 " style="color: #12687f;">तिसगाव</h3>
+            <h6 class=" text-center p-2 mt-3" style="color: #818385;  ">नगर-पाथर्डी रोड, तिसगाव, जिल्हा:-अहमदनगर. पिन:-
+              ४१४१०६</h6>
+            <ul class="list-inline ">
+              <li class="d-inline ml-5 font-weight-bold " style=" color: #12687f; float: left;">फोन: </li>
+              <li class="d-inline ml-1">९५५२५५४०७२, </li>
+              <li class="d-inline "> ९५५२५५४०७३</li>
+            </ul>
+            <ul class="list-inline ">
+              <li class="d-inline font-weight-bold ml-5" style=" color: #12687f; float: left;">ई-मेल: </li>
+              <li class="d-inline ml-1">ssn.tisgaon@gmail.com</li>
+            </ul>
+            <i class="fa fa-phone p-3 mt-3 ml-5 rounded-circle text-white" style="background-color: #12687f;"></i>
+            <i class="fab fa-whatsapp mt-3 ml-3 p-3 rounded-circle text-white" style="background-color: #12687f;"></i>
+            <i class="fa fa-map-marker mt-3 ml-3 p-3 rounded-circle text-white" style="background-color: #12687f;"></i>
+          </div>
+        </div>
+      </div>
+      <!-- Card no-53 -->
+      <div class="col-lg-4 col-sm-6">
+        <div class="card mb-5 card_hover"
+          style="border-top:3px solid black; box-shadow:0px 10px 10px -5px black; border-radius:10px 10px 0px 0px;min-height:370px;">
+          <div class="card-body">
+            <h3 class="text-center font-weight-bold mt-3 " style="color: #12687f;">वैजापूर</h3>
+            <h6 class=" text-center p-2 mt-3" style="color: #818385;  ">महानगरपालिका बाजू, स्टेशन रोड वैजापूर,
+              जि:-औरंगाबाद. पिन:- 423401</h6>
+            <ul class="list-inline ">
+              <li class="d-inline ml-5 font-weight-bold " style=" color: #12687f; float: left;">फोन: </li>
+              <li class="d-inline ml-1"> ९५५२५४३४५९,</li>
+              <li class="d-inline ">९५५२५४३४६१</li>
+            </ul>
+            <ul class="list-inline ">
+              <li class="d-inline font-weight-bold ml-5" style=" color: #12687f; float: left;">ई-मेल: </li>
+              <li class="d-inline ml-1">ssn.vaijapur@gmail.com</li>
+            </ul>
+            <i class="fa fa-phone p-3 mt-3 ml-5 rounded-circle text-white" style="background-color: #12687f;"></i>
+            <i class="fab fa-whatsapp mt-3 ml-3 p-3 rounded-circle text-white" style="background-color: #12687f;"></i>
+            <i class="fa fa-map-marker mt-3 ml-3 p-3 rounded-circle text-white" style="background-color: #12687f;"></i>
+          </div>
+        </div>
+      </div>
+      <!-- Card no-54 -->
+      <div class="col-lg-4 col-sm-6 mb-5">
+        <div class=" card card_hover bg-white p-5"
+          style="border-top:3px solid black;box-shadow:0px 10px 10px -5px black;border-radius:10px 10px 0px 0px;min-height:370px;">
+          <h4 class="mb-0 text-center font-weight-bold" style="color: #12687f;">कॉर्पोरेट ऑफिस</h4>
+          <p class="font-weight-bold text-dark mt-3 text-justify"></p>
+          <p>माऊली संकुल सभाग्रहासमोर, नगर - मनमाड रोड अहमदनगर- ४१४००१&nbsp;&nbsp;</p>
+          <p></p>
+          <p class="text-dark"><b class="" style=" color: #12687f; float: left;">फोन:</b>९५५२५५४०१०</p>
+          <p class="text-dark "><b class="" style=" color: #12687f; float: left;">ई-मेल:</b>santnagebaba@gmail.com</p>
+          <ul class="social mb-0 list-inline mt-">
+            <i class="fa fa-phone p-3 mt-3 ml-5 rounded-circle text-white" style="background-color: #12687f;"></i>
+            <i class="fab fa-whatsapp mt-3 ml-3 p-3 rounded-circle text-white" style="background-color: #12687f;"></i>
+            <i class="fa fa-map-marker mt-3 ml-3 p-3 rounded-circle text-white" style="background-color: #12687f;"></i>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <!-- card 54 -->
+    <div class="row">
+      <div class="col-lg-4 col-sm-6">
+        <div class="card mb-5 card_hover"
+          style="border-top:3px solid black; box-shadow:0px 10px 10px -5px black; border-radius:10px 10px 0px 0px;min-height:370px;">
+          <div class="card-body">
+            <h3 class="text-center font-weight-bold mt-3 " style="color: #12687f;">वडाळा</h3>
+            <h6 class=" text-center p-2 mt-3" style="color: #818385;">वडाळा बस स्टँड जवळ, वडाळा, ता:-नेवासा जि:-
+              अहमदनगर. पिन:- ४१४६०३</h6>
+            <ul class="list-inline ">
+              <li class="d-inline ml-5 font-weight-bold " style=" color: #12687f; float: left;">फोन: </li>
+              <li class="d-inline ml-1"> ९५५२६५१०००,</li>
+              <li class="d-inline ">९५५२६५२०००</li>
+            </ul>
+            <ul class="list-inline ">
+              <li class="d-inline font-weight-bold ml-5" style=" color: #12687f; float: left;">ई-मेल: </li>
+              <li class="d-inline ml-1"> ssn.wadala@gmail.com</li>
+            </ul>
+            <i class="fa fa-phone p-3 mt-3 ml-5 rounded-circle text-white" style="background-color: #12687f;"></i>
+            <i class="fab fa-whatsapp mt-3 ml-3 p-3 rounded-circle text-white" style="background-color: #12687f;"></i>
+            <i class="fa fa-map-marker mt-3 ml-3 p-3 rounded-circle text-white" style="background-color: #12687f;"></i>
+          </div>
+        </div>
+      </div>
+      <!-- Card no-55 -->
+      <div class="col-lg-4 col-sm-6 mb-5">
+        <div class="card mb-5 card_hover"
+          style="border-top:3px solid black; box-shadow:0px 10px 10px -5px black; border-radius:10px 10px 0px 0px;min-height:370px;">
+          <div class="card-body">
+            <h3 class="text-center font-weight-bold mt-3 " style="color: #12687f;">वांबोरी</h3>
+            <h6 class=" text-center p-2 mt-3" style="color: #818385;  ">साई समर्थ कॉम्प्लेक्स, ग्रामपंचायत जवळ, वांबोरी,
+              जिल्हा:-अहमदनगर. ४१३७०४</h6>
+            <ul class="list-inline ">
+              <li class="d-inline ml-5 font-weight-bold " style=" color: #12687f; float: left;">फोन: </li>
+              <li class="d-inline ml-1">९५५२५५४०४०, </li>
+              <li class="d-inline "> ९५५२५५४०७०</li>
+            </ul>
+            <ul class="list-inline ">
+              <li class="d-inline font-weight-bold ml-5" style=" color: #12687f; float: left;">ई-मेल: </li>
+              <li class="d-inline ml-1">ssn.wambori@gmail.com</li>
+            </ul>
+            <i class="fa fa-phone p-3 mt-3 ml-5 rounded-circle text-white" style="background-color: #12687f;"></i>
+            <i class="fab fa-whatsapp mt-3 ml-3 p-3 rounded-circle text-white" style="background-color: #12687f;"></i>
+            <i class="fa fa-map-marker mt-3 ml-3 p-3 rounded-circle text-white" style="background-color: #12687f;"></i>
+          </div>
+        </div>
+      </div>
+      <!-- Card no-56 -->
+      <div class="col-xl-4 col-sm-6 mb-5">
+        <div class="card mb-5 card_hover"
+          style="border-top:3px solid black; box-shadow:0px 10px 10px -5px black; border-radius:10px 10px 0px 0px;min-height:370px;">
+          <div class="card-body">
+            <h3 class="text-center font-weight-bold mt-3 " style="color: #12687f;">येवला</h3>
+            <h6 class=" text-center p-2 mt-3" style="color: #818385;">येवला-वैजापूर रोड, HDFC बँकेच्या वर, येवला,
+              जिल्हा:- नाशिक. ४२३४०१</h6>
+            <ul class="list-inline">
+              <li class="d-inline ml-5 font-weight-bold " style=" color: #12687f; float: left;">फोन:</li>
+              <li class="d-inline ml-1"> ९५५२६१६०००,</li>
+              <li class="d-inline ">९५५२६१७०००</li>
+            </ul>
+            <ul class="list-inline ">
+              <li class="d-inline font-weight-bold ml-5" style=" color: #12687f; float: left;">ई-मेल:</li>
+              <li class="d-inline ml-1">ssn.yeola@gmail.com</li>
+            </ul>
+            <i class="fa fa-phone p-3 mt-3 ml-5 rounded-circle text-white" style="background-color: #12687f;"></i>
+            <i class="fab fa-whatsapp mt-3 ml-3 p-3 rounded-circle text-white" style="background-color: #12687f;"></i>
+            <i class="fa fa-map-marker mt-3 ml-3 p-3 rounded-circle text-white" style="background-color: #12687f;"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- footer section -->
+  <section class="bg-dark">
+    <div class="container">
+      <div class="row">
+        <div class="col-xl-4 text-center">
+          <img src="footer_logo.png" alt="" height="100px" class="mt-5 rounded ">
+          <h4 class="text-white mt-4 font-weight-bold">श्री संत नागेबाबा मल्टीस्टेट को. ऑप. क्रेडीट सोसायटी लि. अहमदनगर
+          </h4>
+          <p class=" mt-4 text-justify" style="color: #818385;">संत नागेबाबा मल्टीस्टेट आपल्या ग्राहकांना विविध
+            वैशिष्ट्यांसह आणि फायद्यांसह बचत खात्यांच्या विस्तृत श्रेणीतून निवडण्याचा पर्याय प्रदान करते. विकसनशील
+            ग्रामीण भागांसाठी आर्थिक आणि तांत्रिक मदतीचा एक महत्त्वाचा स्रोत आहे. संसाधने प्रदान करून लोकांना स्वतःला
+            आणि त्यांच्या पर्यावरणास मदत करणे हे आमचे ध्येय आहे</p>
+        </div>
+        <div class="col-xl-2">
+          <h4 class="text-white mt-5 font-weight-bold mb-4">जाणून घ्या</h4>
+          <ul class="" type="none">
+            <li class="text-white  ml-3 mt-2"><b class="text-white font-weight-bold mr-3 ">></b>संस्थेचा इतिहास</li>
+            <li class="text-white  ml-3 mt-2"><b class="text-white font-weight-bold mr-3">></b>संस्थेविषही</li>
+            <li class="text-white  ml-3 mt-2"><b class="text-white font-weight-bold mr-3">></b>संपर्क</li>
+            <li class="text-white  ml-3 mt-2"><b class="text-white font-weight-bold mr-3">></b>सेवा</li>
+            <li class="text-white  ml-3 mt-2"><b class="text-white font-weight-bold mr-3">></b>गॅलरी</li>
+            <li class="text-white  ml-3 mt-2"><b class="text-white font-weight-bold mr-3">></b>ब्लॉग</li>
+            <li class="text-white  ml-3 mt-2"><b class="text-white font-weight-bold mr-3">></b>समाजकार्य</li>
+            <li class="text-white  ml-3 mt-2"><b class="text-white font-weight-bold mr-3">></b>करिअर</li>
+            <li class="text-white  ml-3 mt-2"><b class="text-white font-weight-bold mr-3">></b>कॅलेंडर</li>
+            <li class="text-white  ml-3 mt-2"><b class="text-white font-weight-bold mr-3">></b>पुरस्कार तपशील</li>
+            <li class="text-white  ml-3 mt-2"><b class="text-white font-weight-bold mr-3">></b>भक्त निवास</li>
+          </ul>
+        </div>
+        <div class="col-xl-2">
+          <h4 class="text-white mt-5 font-weight-bold mb-3">कर्ज आणि ठेव</h4>
+          <ul class="" type="none">
+            <li class="text-white   mt-2"><b class="text-white font-weight-bold mr-3">></b>सोनेतारण कर्ज</li>
+            <li class="text-white   mt-2"><b class="text-white font-weight-bold mr-3">></b>तारण कर्ज</li>
+            <li class="text-white   mt-2"><b class="text-white font-weight-bold mr-3">></b> वैयक्तिक कर्ज</li>
+            <li class="text-white   mt-2"><b class="text-white font-weight-bold mr-3">></b> व्यावसायिक कर्ज</li>
+            <li class="text-white   mt-2"><b class="text-white font-weight-bold mr-3">></b>मुदत ठेव</li>
+            <li class="text-white   mt-2"><b class="text-white font-weight-bold mr-3">></b> आवर्ती ठेव</li>
+            <li class="text-white   mt-2"><b class="text-white font-weight-bold mr-3">></b> Term and Cond</li>
+            <li class="text-white   mt-2"><b class="text-white font-weight-bold mr-3">></b>FAQ</li>
+            <li class="text-white   mt-2"><b class="text-white font-weight-bold mr-3">></b> Privacy Policy</li>
+          </ul>
+        </div>
+        <div class="col-xl-4">
+          <h4 class="text-white font-weight-bold mt-5 ml-4">अधिक माहिती</h4>
+          <h6 class="text-white ml-5 mt-3"> <i class="fa fa-mobile mr-2"></i>9552554010, 9552554057</h6>
+          <h6 class="text-light  ml-5 mt-3"><i class="fa fa-envelope mr-2"></i>info@nagebabamultistate.com</h6>
+          <h6 class="text-light ml-5 mt-3"><i class="fa fa-address-card mr-2"></i>Nagebaba Multistate, Mauli Sankul Near
+            Zopadi Canteen Ahmednagar</h6>
+          <button class="banking p-1  bg-white btn-block mt-5 ml-4">
+            <ul class="d-inline ">
+              <li class="d-inline text-warning font-weight-bold"> <i
+                  class="fa fa-download text-black font-weight-bold"></i> N</li>
+              <li class="d-inline text-black font-weight-bold">E</li>
+              <li class="d-inline text-warning font-weight-bold">T</li>
+              <li class="d-inline text-black font-weight-bold">- B</li>
+              <li class="d-inline text-warning font-weight-bold">A</li>
+              <li class="d-inline text-black font-weight-bold">N</li>
+              <li class="d-inline text-warning font-weight-bold">K</li>
+              <li class="d-inline text-black font-weight-bold">I</li>
+              <li class="d-inline text-warning font-weight-bold">N</li>
+              <li class="d-inline text-black font-weight-bold">G</li>
+            </ul>
+          </button>
+          <button class="banking p-1 bg-white btn-block mt-4 ml-4">
+            <ul class=" ">
+              <li class="d-inline text-warning font-weight-bold"><i
+                  class="fa fa-download text-black font-weight-bold"></i> M</li>
+              <li class="d-inline text-black font-weight-bold">O</li>
+              <li class="d-inline text-warning font-weight-bold">B</li>
+              <li class="d-inline text-black font-weight-bold">I</li>
+              <li class="d-inline text-warning font-weight-bold">L</li>
+              <li class="d-inline text-black font-weight-bold">E</li>
+              <li class="d-inline text-warning font-weight-bold">- B</li>
+              <li class="d-inline text-black font-weight-bold">A</li>
+              <li class="d-inline text-warning font-weight-bold">N</li>
+              <li class="d-inline text-black font-weight-bold">K</li>
+              <li class="d-inline text-warning font-weight-bold">I</li>
+              <li class="d-inline text-black font-weight-bold">N</li>
+              <li class="d-inline text-warning font-weight-bold">G</li>
+            </ul>
+          </button>
+          <h4 class="text-white font-weight-bold ml-5 mt-5">IFSC CODE:YESB0CMSNOC</h4>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Desing by -->
+  <section>
+    <div class="container-fluid p-0">
+      <div class="row">
+        <div class="col-md-6 col-xl-12" style="background-color: black;">
+          <h6 style="background-color: black; color: white; float:left; text-align:center; margin-top:10px;">
+            COPYRIGHT © 2022 संत नागेबाबा मल्टीस्टेट. ALL RIGHTS RESERVED <b class="text-danger"> ♥ </b>
+            DESIGNED BY</h6>
+          <h6 class="text-center"
+            style="background-color: black; color: yellow; margin-left:15px; float:left;  margin-top: 10px;">
+            VIKAS SONAWANE</h6>
+        </div>
+      </div>
+    </div>
+  </section>
+</body>
+
+</html>
